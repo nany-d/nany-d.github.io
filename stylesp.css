@@ -156,7 +156,7 @@ div.grid i{
   position: absolute;
   top: 50%;
   left: max(-4vw, -40px);
-  padding: 150px 0px 150px 150px;
+  padding: 150px 30px 150px 150px;
   margin-top: -200px;
   margin-left: -150px;
   color: white;
@@ -172,7 +172,7 @@ div.grid i{
   position: absolute;
   top: 50%;
   right: max(-4vw, -40px);
-  padding: 150px 150px 150px 0px;
+  padding: 150px 150px 150px 30px;
   margin-top: -200px;
   margin-right: -150px;
   color: white;
