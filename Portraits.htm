@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 600px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/portraits/one portrait one story-min.jpg" alt="one portrait, one story" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">One portrait, One story</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/caravaggio-min.jpg" alt="Caravaggio" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <div class="desc">Caravaggio</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/DOOM-min.jpg" alt="DOOM" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <div class="desc">DOOM</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/jay-min.jpg" alt="Jay James" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <div class="desc">Jay James</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/kenny 2-min.jpg" alt="Kendrick" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <div class="desc">Kendrick Lamar</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/maika-min.jpg" alt="Maika" width="600" height="400" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+    <div class="desc">Maika</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/musashi-min.jpg" alt="Miyamoto Musashi" width="600" height="400" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+    <div class="desc">Miyamoto Musashi</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/beast_skull-min.jpg" alt="Beast Skull" width="600" height="400" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+    <div class="desc">Beast Skull</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/so you can break them-min.jpg" alt="So you can break them" width="600" height="400" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+    <div class="desc">'So you can break them'</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/travis-min.jpg" alt="Travis Scott" width="600" height="400" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+    <div class="desc">Travis Scott</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/portraits/triss-min.jpg" alt="Triss" width="600" height="400" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+    <div class="desc">Triss</div>
+  </div>
+  
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <a href="images/portraits/one portrait one story.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/one portrait one story.jpg" loading="lazy" style="width:100%" alt="One portrait, One story, 21 x 30cm pen and metallic promarker on paper">
+      </a>
+    </div>
+    
+    <div class="mySlides">
+      <a href="images/portraits/caravaggio.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/caravaggio.jpg" loading="lazy" style="width:100%" alt="Caravaggio, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/DOOM.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/DOOM.jpg" loading="lazy" style="width:100%" alt="DOOM, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/jay.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/jay.jpg" loading="lazy" style="width:100%" alt="Jay James, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/kenny 2.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/kenny 2.jpg" loading="lazy" style="width:100%" alt="Kendrick Lamar, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/maika.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/maika.jpg" loading="lazy" style="width:100%" alt="Maika, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/musashi.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/musashi.jpg" loading="lazy" style="width:100%" alt="Miyamoto Musashi, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/beast_skull.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/beast_skull.jpg" loading="lazy" style="width:100%" alt="Beast Skull, 21 x 30cm brush pen on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/so you can break them.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/so you can break them.jpg" loading="lazy" style="width:100%" alt="'So you can break them', 21 x 30cm mixed media on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/travis.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/travis.jpg" loading="lazy" style="width:100%" alt="Travis Scott, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/portraits/triss.jpg" target="_self">
+      <img class="imgtext" src="images/portraits/triss.jpg" loading="lazy" style="width:100%" alt="Triss, 21 x 30cm metallic promarker on paper">
+      </a>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>

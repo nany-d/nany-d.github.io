@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 600px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/Alphabet/A-min.jpg" alt="A" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">A</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Alphabet/B-min.jpg" alt="B" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <div class="desc">B</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Alphabet/C-min.jpg" alt="C" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <div class="desc">C</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Alphabet/D-min.jpg" alt="D" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <div class="desc">D</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Alphabet/E-min.jpg" alt="E" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <div class="desc">E</div>
+  </div>
+  
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <a href="images/Alphabet/A.jpg" target="_self">
+      <img class="imgtext" src="images/Alphabet/A.jpg" loading="lazy" style="width:100%" alt="A, 15 x 21cm pen on smooth card">
+      </a>
+    </div>
+    
+    <div class="mySlides">
+      <a href="images/Alphabet/B.jpg" target="_self">
+      <img class="imgtext" src="images/Alphabet/B.jpg" loading="lazy" style="width:100%" alt="B, 15 x 21cm pen on smooth card">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Alphabet/C.jpg" target="_self">
+      <img class="imgtext" src="images/Alphabet/C.jpg" loading="lazy" style="width:100%" alt="C, 15 x 21cm pen on smooth card">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Alphabet/D.jpg" target="_self">
+      <img class="imgtext" src="images/Alphabet/D.jpg" loading="lazy" style="width:100%" alt="D, 15 x 21cm pen on smooth card">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Alphabet/E.jpg" target="_self">
+      <img class="imgtext" src="images/Alphabet/E.jpg" loading="lazy" style="width:100%" alt="E, 15 x 21cm pen on smooth card">
+      </a>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>

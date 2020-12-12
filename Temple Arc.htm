@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 600px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/Temple Arc/01 intro-min.jpg" alt="Subconscious City" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">Subconscious City</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/02 Arch of faces-min.jpg" alt="Acidic Arches" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <div class="desc">Acidic Arches</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/03 these pages are drunk-min.jpg" alt="These pages are drunk" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <div class="desc">These pages are drunk</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/04 one colum-min.jpg" alt="One column" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <div class="desc">One column</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/05 clarity-min.jpg" alt="Clarity" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <div class="desc">Clarity</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/06 Party in the temple-min.jpg" alt="Party in the Temple" width="600" height="400" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+    <div class="desc">Party in the Temple</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/07 smoking in church-min.jpg" alt="Smoking in Church" width="600" height="400" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+    <div class="desc">Smoking in Church</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/08 Shock gear-min.jpg" alt="Am I just another cog in the machine?" width="600" height="400" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+    <div class="desc">Am I just another cog in the machine?</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/09 castle by the sea-min.jpg" alt="Convulsive Castle 1" width="600" height="400" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+    <div class="desc">Convulsive Castle 1</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/10 castle bastion-min.jpg" alt="Convulsive Castle 2" width="600" height="400" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+    <div class="desc">Convulsive Castle 2</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/11 Drunk in arches-min.jpg" alt="Drunk in Arches" width="600" height="400" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+    <div class="desc">Drunk in Arches</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/12 hangover return-min.jpg" alt="Hangover Return" width="600" height="400" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+    <div class="desc">Hangover Return</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Temple Arc/13 clay cutouts-min.jpg" alt="Clay cutouts" width="600" height="400" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+    <div class="desc">Clay cutouts</div>
+  </div>
+  
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/01 intro.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/01 intro.jpg" loading="lazy" style="width:100%" alt="Subconsious City, hand-drawn components assembled digitally">
+      </a>
+    </div>
+    
+    <div class="mySlides">
+      <a href="images/Temple Arc/02 Arch of faces.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/02 Arch of faces.jpg" loading="lazy" style="width:100%" alt="Acidic Arches, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/03 these pages are drunk.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/03 these pages are drunk.jpg" loading="lazy" style="width:100%" alt="These pages are drunk, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/04 one colum.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/04 one colum.jpg" loading="lazy" style="width:100%" alt="One Column, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/05 clarity.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/05 clarity.jpg" loading="lazy" style="width:100%" alt="Clarity, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/06 Party in the temple.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/06 Party in the temple.jpg" loading="lazy" style="width:100%" alt="Party in the Temple, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/07 smoking in church.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/07 smoking in church.jpg" loading="lazy" style="width:100%" alt="Smoking in Church, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/08 Shock gear.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/08 Shock gear.jpg" loading="lazy" style="width:100%" alt="Am I just another cog in the machine?, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/09 castle by the sea.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/09 castle by the sea.jpg" loading="lazy" style="width:100%" alt="Convulsive Castle 1, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/10 castle bastion.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/10 castle bastion.jpg" loading="lazy" style="width:100%" alt="Convulsive Castle 2, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/11 Drunk in arches.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/11 Drunk in arches.jpg" loading="lazy" style="width:100%" alt="Drunk in Arches, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/12 hangover return.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/12 hangover return.jpg" loading="lazy" style="width:100%" alt="Hangover Return, hand-drawn components assembled digitally">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Temple Arc/13 clay cutouts.jpg" target="_self">
+      <img class="imgtext" src="images/Temple Arc/13 clay cutouts.jpg" loading="lazy" style="width:100%" alt="Clay cutouts, hand-drawn components assembled digitally">
+      </a>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>

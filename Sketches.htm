@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 600px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/Sketches/270815-150217-min.jpg" alt="270815 - 150217" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">270815 - 150217</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/a typology of fire-min.jpg" alt="A Typology of Fire" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <div class="desc">A Typology of Fire</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/Altitude-min.jpg" alt="Altitude" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <div class="desc">Altitude</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/arkendras rage-min.jpg" alt="Arkendra's Rage" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <div class="desc">Arkendra's Rage</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/blurred hate-min.jpg" alt="Blurred Hate" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <div class="desc">Blurred Hate</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/bow music-min.jpg" alt="Bow Music" width="600" height="400" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+    <div class="desc">Bow Music</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/chasm city-min.jpg" alt="Chasm City" width="600" height="400" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+    <div class="desc">Chasm City</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/Conform to the change-min.jpg" alt="Conform to the Change" width="600" height="400" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+    <div class="desc">Conform to the Change</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/crossing the lava river-min.jpg" alt="Crossing the river of Lava" width="600" height="400" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+    <div class="desc">Crossing the river of Lava</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/cycle of life-min.jpg" alt="Cycle of Life" width="600" height="400" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+    <div class="desc">Cycle of Life</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/desert resistance-min.jpg" alt="Desert resistance" width="600" height="400" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+    <div class="desc">Desert resistance</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/electrodynamix-min.jpg" alt="Electrodynamix" width="600" height="400" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+    <div class="desc">Electrodynamix</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/escher and bosch-min.jpg" alt="Escher and Bosch" width="600" height="400" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+    <div class="desc">Escher and Bosch</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/fate the oppressor-min.jpg" alt="Fate the Oppressor" width="600" height="400" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+    <div class="desc">Fate the Oppressor</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/fragment of a past normality-min.jpg" alt="Fragments of a past normality" width="600" height="400" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+    <div class="desc">Fragments of a past normality</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/gateway beyound the mountain king-min.jpg" alt="Gateway beyond the mountain king" width="600" height="400" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+    <div class="desc">Gateway beyond the mountain king</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/gear dragon-min.jpg" alt="Gear Dragon" width="600" height="400" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+    <div class="desc">Gear Dragon</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/hating you all is my passion-min.jpg" alt="Hating you all is my passion" width="600" height="400" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+    <div class="desc">Hating you all is my passion</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/impossibull-min.jpg" alt="Impossibull" width="600" height="400" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+    <div class="desc">Impossibull</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/in his visions-min.jpg" alt="in his Visions" width="600" height="400" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+    <div class="desc">in his Visions</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/jailed heart-min.jpg" alt="Jailed Heart" width="600" height="400" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+    <div class="desc">Jailed Heart</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/jay healing-min.jpg" alt="Jay James bandaged" width="600" height="400" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+    <div class="desc">Jay James bandaged</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/journey to nethe sea-min.jpg" alt="Journey to the Nethe Sea" width="600" height="400" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+    <div class="desc">Journey to the Nethe Sea</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/life of an angel - moments of beauty-min.jpg" alt="Life of an angel; Moments of beauty" width="600" height="400" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+    <div class="desc">Life of an angel; Moments of beauty</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/map to notoria-min.jpg" alt="Map to Notoria" width="600" height="400" onclick="openModal();currentSlide(25)" class="hover-shadow cursor">
+    <div class="desc">Map to Notoria</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/married to the game-min.jpg" alt="Married to the game" width="600" height="400" onclick="openModal();currentSlide(26)" class="hover-shadow cursor">
+    <div class="desc">Married to the game</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/matrix-min.jpg" alt="Matrix" width="600" height="400" onclick="openModal();currentSlide(27)" class="hover-shadow cursor">
+    <div class="desc">Matrix</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/new thoughts-min.jpg" alt="They can try..." width="600" height="400" onclick="openModal();currentSlide(28)" class="hover-shadow cursor">
+    <div class="desc">They can try...</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/predict the future-min.jpg" alt="Predict the future" width="600" height="400" onclick="openModal();currentSlide(29)" class="hover-shadow cursor">
+    <div class="desc">Predict the future</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/rhythm chasm-min.jpg" alt="Rhythm Chasm" width="600" height="400" onclick="openModal();currentSlide(30)" class="hover-shadow cursor">
+    <div class="desc">Rhythm Chasm</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/rune-coding-min.jpg" alt="Rune-coding" width="600" height="400" onclick="openModal();currentSlide(31)" class="hover-shadow cursor">
+    <div class="desc">Rune-coding</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/sky of rho-min.jpg" alt="Sky of Rho" width="600" height="400" onclick="openModal();currentSlide(32)" class="hover-shadow cursor">
+    <div class="desc">Sky of Rho</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/Subconscious city-min.jpg" alt="Subconsious City" width="600" height="400" onclick="openModal();currentSlide(33)" class="hover-shadow cursor">
+    <div class="desc">Subconsious City</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the creator-min.jpg" alt="The Creator" width="600" height="400" onclick="openModal();currentSlide(34)" class="hover-shadow cursor">
+    <div class="desc">The Creator</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the daily routine-min.jpg" alt="The daily routine" width="600" height="400" onclick="openModal();currentSlide(35)" class="hover-shadow cursor">
+    <div class="desc">The daily routine</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the old sun looms above - the stoneleaf valley-min.jpg" alt="The old sun looms above// The Stoneleaf Valley" width="600" height="400" onclick="openModal();currentSlide(36)" class="hover-shadow cursor">
+    <div class="desc">The old sun looms above// The Stoneleaf Valley</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the protagonist-min.jpg" alt="The Protagonist" width="600" height="400" onclick="openModal();currentSlide(37)" class="hover-shadow cursor">
+    <div class="desc">The Protagonist</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the shifting sands-min.jpg" alt="The shifting sands" width="600" height="400" onclick="openModal();currentSlide(38)" class="hover-shadow cursor">
+    <div class="desc">The shifting sands</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the stone void-min.jpg" alt="The Stone Void" width="600" height="400" onclick="openModal();currentSlide(39)" class="hover-shadow cursor">
+    <div class="desc">The Stone Void</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/the theory of everything-min.jpg" alt="The theory of everything" width="600" height="400" onclick="openModal();currentSlide(40)" class="hover-shadow cursor">
+    <div class="desc">The theory of everything</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/villain library-min.jpg" alt="Villain Library" width="600" height="400" onclick="openModal();currentSlide(41)" class="hover-shadow cursor">
+    <div class="desc">Villain Library</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/Sketches/allmyPain-min.jpg" alt="allMyPAin" width="600" height="400" onclick="openModal();currentSlide(42)" class="hover-shadow cursor">
+    <div class="desc">allMyPAin</div>
+  </div>
+  
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <a href="images/Sketches/270815-150217.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/270815-150217.jpg" loading="lazy" style="width:100%" alt="270815 - 150217">
+      </a>
+    </div>
+    
+    <div class="mySlides">
+      <a href="images/Sketches/a typology of fire.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/a typology of fire.jpg" loading="lazy" style="width:100%" alt="A Typology of Fire">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/Altitude.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/Altitude.jpg" loading="lazy" style="width:100%" alt="Altitude">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/arkendras rage.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/arkendras rage.jpg" loading="lazy" style="width:100%" alt="Arkendra's Rage">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/blurred hate.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/blurred hate.jpg" loading="lazy" style="width:100%" alt="Blurred Hate">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/bow music.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/bow music.jpg" loading="lazy" style="width:100%" alt="Bow Music">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/chasm city.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/chasm city.jpg" loading="lazy" style="width:100%" alt="Chasm City">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/Conform to the change.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/Conform to the change.jpg" loading="lazy" style="width:100%" alt="Conform to the change">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/crossing the lava river.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/crossing the lava river.jpg" loading="lazy" style="width:100%" alt="Crossing the river of Lava">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/cycle of life.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/cycle of life.jpg" loading="lazy" style="width:100%" alt="Cycle of Life">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/desert resistance.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/desert resistance.jpg" loading="lazy" style="width:100%" alt="Deset resistance">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/electrodynamix.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/electrodynamix.jpg" loading="lazy" style="width:100%" alt="Electrodynamix">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/escher and bosch.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/escher and bosch.jpg" loading="lazy" style="width:100%" alt="Escher and Bosch">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/fate the oppressor.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/fate the oppressor.jpg" loading="lazy" style="width:100%" alt="Fate the Oppressor">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/fragment of a past normality.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/fragment of a past normality.jpg" loading="lazy" style="width:100%" alt="Fragment of a past normality">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/gateway beyound the mountain king.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/gateway beyound the mountain king.jpg" loading="lazy" style="width:100%" alt="Gateway beyond the mountain king">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/gear dragon.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/gear dragon.jpg" loading="lazy" style="width:100%" alt="Gear Dragon">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/hating you all is my passion.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/hating you all is my passion.jpg" loading="lazy" style="width:100%" alt="Hating you all is my passion">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/impossibull.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/impossibull.jpg" loading="lazy" style="width:100%" alt="Impossibull">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/in his visions.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/in his visions.jpg" loading="lazy" style="width:100%" alt="in his Visions">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/jailed heart.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/jailed heart.jpg" loading="lazy" style="width:100%" alt="Jailed Heart">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/jay healing.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/jay healing.jpg" loading="lazy" style="width:100%" alt="Jay James bandaged">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/journey to nethe sea.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/journey to nethe sea.jpg" loading="lazy" style="width:100%" alt="Journey to the Nethe Sea">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/life of an angel - moments of beauty.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/life of an angel - moments of beauty.jpg" loading="lazy" style="width:100%" alt="Life of an angel; Moments of beauty">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/map to notoria.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/map to notoria.jpg" loading="lazy" style="width:100%" alt="Map to Notoria">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/married to the game.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/married to the game.jpg" loading="lazy" style="width:100%" alt="Married to the game">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/matrix.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/matrix.jpg" loading="lazy" style="width:100%" alt="Matrix">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/new thoughts.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/new thoughts.jpg" loading="lazy" style="width:100%" alt="They can try...">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/predict the future.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/predict the future.jpg" loading="lazy" style="width:100%" alt="Predict the future">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/rhythm chasm.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/rhythm chasm.jpg" loading="lazy" style="width:100%" alt="Rhythm chasm">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/rune-coding.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/rune-coding.jpg" loading="lazy" style="width:100%" alt="Rune-coding">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/sky of rho.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/sky of rho.jpg" loading="lazy" style="width:100%" alt="Sky of Rho">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/Subconscious city.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/Subconscious city.jpg" loading="lazy" style="width:100%" alt="Subconscious City">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the creator.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the creator.jpg" loading="lazy" style="width:100%" alt="The Creator">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the daily routine.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the daily routine.jpg" loading="lazy" style="width:100%" alt="The daily routine">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the old sun looms above - the stoneleaf valley.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the old sun looms above - the stoneleaf valley.jpg" loading="lazy" style="width:100%" alt="The old sun looms above// The Stoneleaf Valley">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the protagonist.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the protagonist.jpg" loading="lazy" style="width:100%" alt="The Protagonist">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the shifting sands.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the shifting sands.jpg" loading="lazy" style="width:100%" alt="The shifting sands">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the stone void.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the stone void.jpg" loading="lazy" style="width:100%" alt="The Stone Void">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/the theory of everything.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/the theory of everything.jpg" loading="lazy" style="width:100%" alt="The theory of everything">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/villain library.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/villain library.jpg" loading="lazy" style="width:100%" alt="Villain Library">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/Sketches/allmyPain.jpg" target="_self">
+      <img class="imgtext" src="images/Sketches/allmyPain.jpg" loading="lazy" style="width:100%" alt="allMyPAin">
+      </a>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>

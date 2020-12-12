@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 600px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/2020 spares/lil simp-min.jpg" alt="Sad day" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">A Sad Day</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/2020 spares/nletosen-min.jpg" alt="Promise that you'll sing about me" width="600" height="400" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <div class="desc">Promise that you'll sing about me</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/2020 spares/phone 1-min.jpg" alt="Landscape Photography" width="600" height="400" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <div class="desc">Landscape Photography</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/2020 spares/phone 2-min.jpg" alt="Blind Camera" width="600" height="400" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <div class="desc">Blind Camera</div>
+  </div>
+
+  <div class="gallery">
+    <img src="images/2020 spares/phone vs-min.jpg" alt="Phone Society" width="600" height="400" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+    <div class="desc">Phone Society</div>
+  </div>
+
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  <i aria-hidden="true"></i>
+  
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <a href="images/2020 spares/lil simp.jpg" target="_self">
+      <img class="imgtext" src="images/2020 spares/lil simp.jpg" loading="lazy" style="width:100%" alt="A Sad Day, 15 x 21cm pen and promarker on paper">
+      </a>
+    </div>
+    
+    <div class="mySlides">
+      <a href="images/2020 spares/nletosen.jpg" target="_self">
+      <img class="imgtext" src="images/2020 spares/nletosen.jpg" loading="lazy" style="width:100%" alt="Promise that you'll sing about me, 21 x 30cm pen and promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/2020 spares/phone 1.jpg" target="_self">
+      <img class="imgtext" src="images/2020 spares/phone 1.jpg" loading="lazy" style="width:100%" alt="Landscape Photography, 21 x 30cm photograph with pencil and pen overlay">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/2020 spares/phone 2.jpg" target="_self">
+      <img class="imgtext" src="images/2020 spares/phone 2.jpg" loading="lazy" style="width:100%" alt="Blind Camera, 21 x 30cm pen and promarker on paper">
+      </a>
+    </div>
+
+    <div class="mySlides">
+      <a href="images/2020 spares/phone vs.jpg" target="_self">
+      <img class="imgtext" src="images/2020 spares/phone vs.jpg" loading="lazy" style="width:100%" alt="Phone society, 21 x 30cm brush pen on paper">
+      </a>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>

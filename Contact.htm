@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+<title>Danny's House of Art</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Inspiring contemporary art">
+<meta name="keywords" content="Danny, House, Martin, Art">
+<meta name="author" content="Danny George Martin">
+<link rel="icon" href="images/favicon/beast_skull2.png">
+<link rel="stylesheet" href="stylesp.css">
+<style>
+  .modal-content {
+  max-width: 400px;
+}
+  div.gallery {
+  width: 200px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">  
+  <div class="head">
+    <a href="index.htm"><h2>DANNY'S HOUSE OF ART</h2></a>
+  </div>
+  <div class="head">
+    <h2 id="clock"></h2>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="Contact.htm">Contact</a>
+  <a href="About.htm">About</a>
+  <a href="Archive.htm">Archive</a>
+  <a href="Art.htm">Art</a>
+</div>
+
+<div class="words">
+  <h2>
+    CONTACT
+  </h2>
+  <br>
+  <br>
+  <p>
+    Let me know your thoughts!<br>
+    Whether you're interested in prints, commissions, prices or just want to know more about my art; please do get in touch.<br>
+  </p>
+  <br>
+  <p>
+    Email: <a href="mailto:mdanny@hotmail.co.uk">mdanny@hotmail.co.uk</a><br>
+    <br>
+    Instagram: <a href="https://www.instagram.com/dannys_house_of_art/">dannys_house_of_art</a>
+  </p>
+</div>
+
+<div class="grid">
+
+  <div class="gallery">
+    <img src="images/About image/contact me.jpg" alt="Danny" width="600" height="400" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <div class="desc">Contact me!</div>
+  </div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img class="imgtext" src="images/About image/contact me.jpg" loading="lazy" style="width:100%" alt="Contact me!">
+    </div>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="footer">
+  <hr>  
+  <br>
+  <p>Copyright@2020 Danny Martin</p>
+  <br> 
+  <p>Website designed and coded by Danny Martin</p>
+  <br>
+  <p>Instagram: @dannys_house_of_art</p>
+  <br>
+  <p>Email: mdanny@hotmail.co.uk</p>
+  <br>
+</div>
+
+<script src="thscript.js"></script>
+
+</body>
+</html>
