@@ -12,11 +12,11 @@ function Main(){
 }
 
 /*00Root Img Animation*/
-var picPaths1 = ['images/Title page/close to you.jpg','images/Title page/jay.jpg','images/Title Page/caravaggio.jpg','images/Title page/beast_skull.jpg'];
-var picPaths2 = ['images/Title page/Return.jpg','images/Title page/Barbie.jpg','images/Title Page/hell1-half.jpg','images/Title page/hell8-half.jpg'];
-var picPaths3 = ['images/Title page/4-half.jpg','images/Title page/beast_skull.jpg','images/Title Page/close to you.jpg','images/Title page/Barbie.jpg'];
-var picPaths4 = ['images/Title page/caravaggio.jpg','images/Title page/Return.jpg','images/Title Page/jay.jpg','images/Title page/hell4-half.jpg'];
-var picPaths5 = ['images/Title page/hell4-half.jpg','images/Title page/hell1-half.jpg','images/Title Page/hell8-half.jpg','images/Title page/4-half.jpg'];
+var picPaths1 = ['images/Title page/close to you.jpg','images/Title page/jay.jpg','images/Title page/caravaggio.jpg','images/Title page/beast_skull.jpg'];
+var picPaths2 = ['images/Title page/Return.jpg','images/Title page/Barbie.jpg','images/Title page/hell1-half.jpg','images/Title page/hell8-half.jpg'];
+var picPaths3 = ['images/Title page/4-half.jpg','images/Title page/beast_skull.jpg','images/Title page/close to you.jpg','images/Title page/Barbie.jpg'];
+var picPaths4 = ['images/Title page/caravaggio.jpg','images/Title page/Return.jpg','images/Title page/jay.jpg','images/Title page/hell4-half.jpg'];
+var picPaths5 = ['images/Title page/hell4-half.jpg','images/Title page/hell1-half.jpg','images/Title page/hell8-half.jpg','images/Title page/4-half.jpg'];
   var curPic1 = -1;
   var curPic2 = -1;
   var curPic3 = -1;
