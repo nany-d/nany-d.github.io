@@ -81,19 +81,19 @@ var picPaths5 = ['images/Title page/hell4-half.jpg','images/Title page/hell1-hal
   window.onload=function() {
     imgCont1 = document.getElementById("imgBanner");
     swapImage1();
-    setInterval(swapImage1,16000);
+    setInterval(swapImage1,8000);
     imgCont2 = document.getElementById("imgBanner2");
     swapImage2();
     setInterval(swapImage2,8000);
     imgCont3 = document.getElementById("imgBanner3");
     swapImage3();
-    setInterval(swapImage3,4000);
+    setInterval(swapImage3,8000);
     imgCont4 = document.getElementById("imgBanner4");
     swapImage4();
-    setInterval(swapImage4,2000);
+    setInterval(swapImage4,8000);
     imgCont5 = document.getElementById("imgBanner5");
     swapImage5();
-    setInterval(swapImage5,1000);
+    setInterval(swapImage5,8000);
   }
 
 /* lightbox */
