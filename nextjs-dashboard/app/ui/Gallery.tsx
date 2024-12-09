@@ -1,0 +1,26 @@
+import GalleryItem from "./GalleryItem"
+import type { galleryItem } from "../lib/galleryItem"
+import { JSX } from "react"
+// Gallery component to display a collection of pictures
+
+type galleryProps = {
+    title: string
+    description: JSX.Element | null
+    images: Array<galleryItem>
+}
+
+const imageDir = "images"
+
+export default function Gallery({ title, description, images }: galleryProps) {
+    return (
+        <div className="flex flex-col gap-5 mb-20">
+            <h1 className="flex flex-wrap justify-start mb-5">{title}</h1>
+            {description}
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center" >
+                {images.map((item, index) => (
+                    <GalleryItem key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} />
+                ))}
+            </div>
+        </div>
+    )
+}

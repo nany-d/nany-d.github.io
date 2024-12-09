@@ -1,0 +1,74 @@
+{
+    "home": [
+        {
+            "refreshInterval": 16000,
+            "images": [
+                "title-page/close to you.jpg",
+                "title-page/jay.jpg",
+                "title-page/caravaggio.jpg",
+                "title-page/beast_skull.jpg"
+            ]
+        },
+        {
+            "refreshInterval": 8000,
+            "images": [
+                "title-page/Return.jpg",
+                "title-page/Barbie.jpg",
+                "title-page/hell1-half.jpg",
+                "title-page/hell8-half.jpg"
+            ]
+        },
+        {
+            "refreshInterval": 4000,
+            "images": [
+                "title-page/4-half.jpg",
+                "title-page/beast_skull.jpg",
+                "title-page/close to you.jpg",
+                "title-page/Barbie.jpg"
+            ]
+        },
+        {
+            "refreshInterval": 2000,
+            "images": [
+                "title-page/caravaggio.jpg",
+                "title-page/Return.jpg",
+                "title-page/jay.jpg",
+                "title-page/hell4-half.jpg"
+            ]
+        },
+        {
+            "refreshInterval": 1000,
+            "images": [
+                "title-page/hell4-half.jpg",
+                "title-page/hell1-half.jpg",
+                "title-page/hell8-half.jpg",
+                "title-page/4-half.jpg"
+            ]
+        }
+    ],
+    "art": [
+        { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020"},
+        { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020"},
+        { "imgPath": "art-pages/phoenix.jpg", "name": "HellNine", "year": "2017-2020" },
+        { "imgPath": "art-pages/fayte and tri stars.jpg", "name": "Vermillion", "year": "2020"},
+        { "imgPath": "art-pages/phone 2.jpg", "name": "Miscellaneous", "year": "2020"},
+        { "imgPath": "art-pages/Temple Arc.jpg", "name": "Subconscious City", "year": "2018-2020"},
+        { "imgPath": "art-pages/world on her head.jpg", "name": "The Rebalancing Act", "year": "2020"},
+        { "imgPath": "art-pages/Full House.jpg", "name": "Full House Exhibition", "year": "2020"},
+        { "imgPath": "art-pages/Balanced World.jpg", "name": "Balanced World", "year": "2019" },
+        { "imgPath": "art-pages/D.jpg", "name": "The Alphabet Series", "year": "2019"},
+        { "imgPath": "art-pages/Tower of Heaven.jpg", "name": "The Chaos of Change", "year": "2017-2019"}
+    ],
+    "archive": [
+        {"imgPath": "art-pages/the daily routine.jpg", "name": "Old Sketches", "year": "2016-2019"}
+    ],
+    "puppeteer": [
+        {"imgPath": "puppeteer/p1.png"},
+        {"imgPath": "puppeteer/p2.png"},
+        {"imgPath": "puppeteer/p3.png"},
+        {"imgPath": "puppeteer/p4.png"},
+        {"imgPath": "puppeteer/p5.png"},
+        {"imgPath": "puppeteer/p6.png"},
+        {"imgPath": "puppeteer/p7.png"}
+    ]
+}
