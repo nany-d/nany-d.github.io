@@ -73,5 +73,8 @@
     ],
     "contact": [
         {"imgPath": "about-image/contact me.jpg", "name": "Contact me!"}
+    ],
+    "about": [
+        {"imgPath": "about-image/danny2.jpg", "name": "Photograph"}
     ]
 }
