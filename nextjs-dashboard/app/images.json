@@ -70,5 +70,8 @@
         {"imgPath": "puppeteer/p5.png"},
         {"imgPath": "puppeteer/p6.png"},
         {"imgPath": "puppeteer/p7.png"}
+    ],
+    "contact": [
+        {"imgPath": "about-image/contact me.jpg", "name": "Contact me!"}
     ]
 }
