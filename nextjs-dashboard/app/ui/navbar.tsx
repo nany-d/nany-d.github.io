@@ -1,13 +1,26 @@
-import Link from "next/link"
+import NavbarItem, { NavbarItemProps } from "./NavbarItem"
+
+const NAVBARITEMS: Array<NavbarItemProps> = [
+    { href: "/puppeteer", pageName: "The Puppeteer" },
+    { href: "/art", pageName: "Art" },
+    { href: "/archive", pageName: "Archive" },
+    { href: "/about", pageName: "About" },
+    { href: "/contact", pageName: "Contact" }
+
+]
 
 export default function Navbar() {
     return (
         <ul className="flex items-center text-white justify-end">
-            <li className="mr-5 p-2 hover:bg-white hover:text-black"><Link href="/puppeteer" >The Puppeteer</Link></li>
-            <li className="mr-5 p-2 hover:bg-white hover:text-black"><Link href="/art">Art</Link></li>
-            <li className="mr-5 p-2 hover:bg-white hover:text-black"><Link href="/archive">Archive</Link></li>
-            <li className="mr-5 p-2 hover:bg-white hover:text-black"><Link href="/about">About</Link></li>
-            <li className="p-2 hover:bg-white hover:text-black"><Link href="/contact">Contact</Link></li>
+            {
+                NAVBARITEMS.map((item, index) => {
+                    // The last element has no right margin
+                    const extraStyles = (index == NAVBARITEMS.length - 1)? "" : "mr-5"
+                    return (
+                        <NavbarItem href={item.href} pageName={item.pageName} extraStyles={extraStyles} />
+                    ) 
+                })
+            }
         </ul>
     )
 }
