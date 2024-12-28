@@ -1,5 +1,4 @@
-import images from "../app/images.json"
-import { Layout } from "@/app/layout"
+import images from "app/images.json"
 import { galleryItem } from "@/app/lib/galleryItem"
 import Gallery from "@/app/ui/Gallery"
 
@@ -21,9 +20,9 @@ const description = (
     </div>
 )
 
-export default function Art() {
+export default function Page() {
     return (
-        <Layout>
+        <>
             <Gallery images={imagesData} title="THE PUPPETEER" description={description} />
             <p> 
                 Join the Discord Server:
@@ -36,6 +35,6 @@ export default function Art() {
                 Instagram: <a className="underline" href="https://www.instagram.com/the_puppeteer_game/">the_puppeteer_game</a>
                 <br/>
             </p>
-        </Layout>
+        </>
     )
 }

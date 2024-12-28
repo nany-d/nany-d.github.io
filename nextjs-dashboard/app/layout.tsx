@@ -9,21 +9,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <main className="flex min-h-screen flex-col bg-black px-10">
+          <Header />
+          {children}
+          <Footer />
+        </main>
+      </body>
     </html>
   );
-}
-
-export function Layout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <main className="flex min-h-screen flex-col bg-black px-10">
-      <Header />
-      {children}
-      <Footer />
-    </main>
-  )
 }

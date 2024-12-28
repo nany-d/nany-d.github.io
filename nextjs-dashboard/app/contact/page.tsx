@@ -1,5 +1,4 @@
 import images from "app/images.json"
-import { Layout } from "@/app/layout"
 import Gallery from "@/app/ui/Gallery"
 import { JSX } from "react"
 import { galleryItem } from "@/app/lib/galleryItem"
@@ -45,10 +44,8 @@ const description: JSX.Element = (
     </div>
 )
 
-export default function Contact() {
+export default function Page() {
     return (
-        <Layout>
-            <Gallery title="Contact" images={imagesData} description={description} />
-        </Layout>
+        <Gallery title="Contact" images={imagesData} description={description} />
     )
 }

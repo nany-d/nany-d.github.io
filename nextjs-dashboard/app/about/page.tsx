@@ -1,5 +1,4 @@
 import images from "app/images.json"
-import { Layout } from "@/app/layout";
 import { JSX } from "react"
 import Gallery from "@/app/ui/Gallery";
 import { galleryItem } from "@/app/lib/galleryItem";
@@ -17,9 +16,9 @@ const description: JSX.Element = (
     </div>
 )
 
-export default function About() {
+export default function Page() {
     return (
-        <Layout>
+        <>
             <Gallery images={imageData} title="About" description={description} />
             <p>
                 Born: 1999
@@ -49,6 +48,6 @@ export default function About() {
                 2018-2019: Head of Arts committee for King's Affair - A prestigious social event in the Cambridge calendar
                 <br/>
             </p>
-        </Layout>
+        </>
     )
 }
