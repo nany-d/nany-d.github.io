@@ -1,4 +1,7 @@
+'use client'
+import clsx from 'clsx'
 import Link from "next/link"
+import { usePathname } from 'next/navigation'
 
 const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/puppeteer", pageName: "The Puppeteer" },
@@ -16,9 +19,16 @@ interface NavbarItemProps {
 }
 
 function NavbarItem({ href, pageName, extraStyles = "" }: NavbarItemProps) {
+    const pathName = usePathname()
     return (
         <>
-            <li className={`${extraStyles} p-2 hover:bg-white hover:text-black`}><Link href={href} >{pageName}</Link></li>
+            <li className={clsx(
+                `${extraStyles} p-2 hover:bg-white hover:text-black`,
+                { "bg-red-900": pathName == href }
+
+            )}>
+                <Link href={href} >{pageName}</Link>
+            </li>
         </>
     )
 }
@@ -31,7 +41,7 @@ export default function Navbar() {
                     // The last element has no right margin
                     const extraStyles = (index == NAVBARITEMS.length - 1)? "" : "mr-5"
                     return (
-                        <NavbarItem href={item.href} pageName={item.pageName} extraStyles={extraStyles} />
+                        <NavbarItem key={item.href} href={item.href} pageName={item.pageName} extraStyles={extraStyles} />
                     ) 
                 })
             }
