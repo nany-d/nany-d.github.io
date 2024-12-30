@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Clock from "./clock";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 export default function Header() {
     return (

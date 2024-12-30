@@ -1,4 +1,4 @@
-import NavbarItem, { NavbarItemProps } from "./NavbarItem"
+import Link from "next/link"
 
 const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/puppeteer", pageName: "The Puppeteer" },
@@ -8,6 +8,20 @@ const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/contact", pageName: "Contact" }
 
 ]
+
+interface NavbarItemProps {
+    href: string;
+    pageName: string;
+    extraStyles?: string;
+}
+
+function NavbarItem({ href, pageName, extraStyles = "" }: NavbarItemProps) {
+    return (
+        <>
+            <li className={`${extraStyles} p-2 hover:bg-white hover:text-black`}><Link href={href} >{pageName}</Link></li>
+        </>
+    )
+}
 
 export default function Navbar() {
     return (
