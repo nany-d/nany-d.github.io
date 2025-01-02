@@ -47,9 +47,9 @@
         }
     ],
     "art": [
-        { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020"},
-        { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020"},
-        { "imgPath": "art-pages/phoenix.jpg", "name": "HellNine", "year": "2017-2020" },
+        { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020", "collectionHref": "/pastels"},
+        { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020", "collectionHref": "/portraits"},
+        { "imgPath": "art-pages/phoenix.jpg", "name": "HellNine", "year": "2017-2020", "collectionHref": "/HellNine"},
         { "imgPath": "art-pages/fayte and tri stars.jpg", "name": "Vermillion", "year": "2020"},
         { "imgPath": "art-pages/phone 2.jpg", "name": "Miscellaneous", "year": "2020"},
         { "imgPath": "art-pages/Temple Arc.jpg", "name": "Subconscious City", "year": "2018-2020"},
@@ -76,5 +76,42 @@
     ],
     "about": [
         {"imgPath": "about-image/danny2.jpg", "name": "Photograph"}
+    ],
+    "pastels": [
+        {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose"},
+        {"imgPath": "pastels/Heart's City-min.jpg", "name": "Heart's City"},
+        {"imgPath": "pastels/Haunted-min.jpg", "name": "Haunted"},
+        {"imgPath": "pastels/Return-min.jpg", "name": "Return"},
+        {"imgPath": "pastels/villain-min.jpg", "name": "Villain"},
+        {"imgPath": "pastels/Kendrick-min.jpg", "name": "Kendrick"},
+        {"imgPath": "pastels/Barbie-min.jpg", "name": "Barbie"},
+        {"imgPath": "pastels/That which dont kill me-min.jpg", "name": "That which don't kill me"},
+        {"imgPath": "pastels/close to you-min.jpg", "name": "Close to you"},
+        {"imgPath": "pastels/money maker city breaker-min.jpg", "name": "Money maker, City breaker"}
+    ],
+    "portraits": [
+        {"imgPath": "portraits/one portrait one story-min.jpg", "name": "one portrait, one story"},
+        {"imgPath": "portraits/caravaggio-min.jpg", "name": "Caravaggio"},
+        {"imgPath": "portraits/DOOM-min.jpg", "name": "DOOM"},
+        {"imgPath": "portraits/jay-min.jpg", "name": "Jay James"},
+        {"imgPath": "portraits/kenny 2-min.jpg", "name": "Kendrick"},
+        {"imgPath": "portraits/maika-min.jpg", "name": "Maika"},
+        {"imgPath": "portraits/musashi-min.jpg", "name": "Miyamoto Musashi"},
+        {"imgPath": "portraits/beast_skull-min.jpg", "name": "Beast Skull"},
+        {"imgPath": "portraits/so you can break them-min.jpg", "name": "So you can break them"},
+        {"imgPath": "portraits/travis-min.jpg", "name": "Travis Scott"},
+        {"imgPath": "portraits/triss-min.jpg", "name": "Triss"}
+    ],
+    "hellnine": [
+        {"imgPath": "hellnine/hell1-min.jpg", "name": "Fission of the soul"},
+        {"imgPath": "hellnine/hell2-min.jpg", "name": "PyroAmbition"},
+        {"imgPath": "hellnine/hell3-min.jpg", "name": "Broken reels of memory"},
+        {"imgPath": "hellnine/hell4-min.jpg", "name": "Surfing the depths"},  
+        {"imgPath": "hellnine/hell5-min.jpg", "name": "The Omen Counter"},
+        {"imgPath": "hellnine/hell6-min.jpg", "name": "SAY I LOVE YOU"},
+        {"imgPath": "hellnine/hell7-min.jpg", "name": "and know my shkame"},
+        {"imgPath": "hellnine/hell8-min.jpg", "name": "TELL ME IM HUMAN"},
+        {"imgPath": "hellnine/hell9-min.jpg", "name": "Dragon Gear"},
+        {"imgPath": "hellnine/hell0-min.jpg", "name": "Tower of Heaven Remastered"}
     ]
 }

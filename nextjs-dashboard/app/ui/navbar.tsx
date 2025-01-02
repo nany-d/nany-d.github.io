@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import Link from "next/link"
 import { usePathname } from 'next/navigation'
 
+// TODO: Move to central config
 const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/puppeteer", pageName: "The Puppeteer" },
     { href: "/art", pageName: "Art" },

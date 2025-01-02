@@ -18,7 +18,7 @@ export default function Gallery({ title, description, images }: galleryProps) {
             {description}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center" >
                 {images.map((item, index) => (
-                    <GalleryItem key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} />
+                    <GalleryItem key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} collectionHref={item.collectionHref} />
                 ))}
             </div>
         </div>
