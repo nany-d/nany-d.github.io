@@ -17,6 +17,7 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+        linkColor: '#04d9ff'
       },
     },
     keyframes: {

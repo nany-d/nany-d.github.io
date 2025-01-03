@@ -21,3 +21,9 @@ body {
   background-color: black;
   color: white;
 }
+
+@layer base {
+  a {
+    @apply hover:text-linkColor;
+  }
+}

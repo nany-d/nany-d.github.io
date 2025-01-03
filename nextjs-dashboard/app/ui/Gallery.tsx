@@ -14,9 +14,9 @@ const imageDir = "images"
 export default function Gallery({ title, description, images }: galleryProps) {
     return (
         <div className="flex flex-col gap-5 mb-20">
-            <h1 className="flex flex-wrap justify-start mb-5 font-bold">{title}</h1>
+            <h1 className="flex flex-wrap justify-start mb-5 font-bold text-3xl">{title}</h1>
             {description}
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 justify-items-center" >
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 justify-items-center" >
                 {images.map((item, index) => (
                     <GalleryItem key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} collectionHref={item.collectionHref} />
                 ))}

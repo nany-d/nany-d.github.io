@@ -1,7 +1,6 @@
 'use client'
 import clsx from 'clsx'
 import Link from "next/link"
-import { usePathname } from 'next/navigation'
 
 // TODO: Move to central config
 const NAVBARITEMS: Array<NavbarItemProps> = [
@@ -20,15 +19,12 @@ interface NavbarItemProps {
 }
 
 function NavbarItem({ href, pageName, extraStyles = "" }: NavbarItemProps) {
-    const pathName = usePathname()
     return (
         <>
-            <li className={clsx(
-                `${extraStyles} p-2 hover:bg-white hover:text-black`,
-                { "bg-red-900": pathName == href }
-
-            )}>
-                <Link href={href} >{pageName}</Link>
+            <li>
+                <Link href={href} className={`${extraStyles} p-2 hover:bg-white hover:text-black visited:text-white`}>
+                    {pageName}
+                </Link>
             </li>
         </>
     )
