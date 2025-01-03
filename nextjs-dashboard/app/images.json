@@ -78,7 +78,7 @@
         {"imgPath": "about-image/danny2.jpg", "name": "Photograph"}
     ],
     "pastels": [
-        {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose"},
+        {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose", "gridCols": 2, "width": 520},
         {"imgPath": "pastels/Heart's City-min.jpg", "name": "Heart's City"},
         {"imgPath": "pastels/Haunted-min.jpg", "name": "Haunted"},
         {"imgPath": "pastels/Return-min.jpg", "name": "Return"},

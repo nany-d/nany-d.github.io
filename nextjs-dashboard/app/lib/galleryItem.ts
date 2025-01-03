@@ -5,6 +5,8 @@ export type galleryItem = {
     year: string | null
     // Links to a collection of art
     collectionHref: string | null
+    gridCols: number | null
+    width: number | null
 }
 
 export type revolvingGalleryItem = {
