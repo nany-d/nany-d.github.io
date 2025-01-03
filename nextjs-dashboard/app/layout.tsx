@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="flex min-h-screen flex-col bg-black px-10">
+        <main className="flex min-h-screen flex-col bg-black sm:px-5">
           <Header />
           {children}
           <Footer />

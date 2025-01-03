@@ -4,44 +4,40 @@ import Link from "next/link"
 
 // TODO: Move to central config
 const NAVBARITEMS: Array<NavbarItemProps> = [
-    { href: "/puppeteer", pageName: "The Puppeteer" },
-    { href: "/art", pageName: "Art" },
-    { href: "/archive", pageName: "Archive" },
+    { href: "/contact", pageName: "Contact" },
     { href: "/about", pageName: "About" },
-    { href: "/contact", pageName: "Contact" }
-
+    { href: "/archive", pageName: "Archive" },
+    { href: "/art", pageName: "Art" },
+    { href: "/puppeteer", pageName: "The Puppeteer" },
 ]
 
 interface NavbarItemProps {
     href: string;
     pageName: string;
-    extraStyles?: string;
 }
 
-function NavbarItem({ href, pageName, extraStyles = "" }: NavbarItemProps) {
+function NavbarItem({ href, pageName,}: NavbarItemProps) {
     return (
         <>
-            <li>
-                <Link href={href} className={`${extraStyles} p-2 hover:bg-white hover:text-black visited:text-white`}>
+            <div>
+                <Link href={href} className={`px-3 py-2 hover:bg-white hover:text-black visited:text-white block float-right`}>
                     {pageName}
                 </Link>
-            </li>
+            </div>
         </>
     )
 }
 
 export default function Navbar() {
     return (
-        <ul className="flex items-center text-white justify-end">
+        <div className="mb-20 overflow-hidden">
             {
                 NAVBARITEMS.map((item, index) => {
-                    // The last element has no right margin
-                    const extraStyles = (index == NAVBARITEMS.length - 1)? "" : "mr-5"
                     return (
-                        <NavbarItem key={item.href} href={item.href} pageName={item.pageName} extraStyles={extraStyles} />
+                        <NavbarItem key={item.href} href={item.href} pageName={item.pageName}/>
                     ) 
                 })
             }
-        </ul>
+        </div>
     )
 }
