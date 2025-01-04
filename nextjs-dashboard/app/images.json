@@ -78,16 +78,16 @@
         {"imgPath": "about-image/danny2.jpg", "name": "Photograph"}
     ],
     "pastels": [
-        {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose", "gridCols": 2, "width": 520},
-        {"imgPath": "pastels/Heart's City-min.jpg", "name": "Heart's City"},
-        {"imgPath": "pastels/Haunted-min.jpg", "name": "Haunted"},
-        {"imgPath": "pastels/Return-min.jpg", "name": "Return"},
-        {"imgPath": "pastels/villain-min.jpg", "name": "Villain"},
-        {"imgPath": "pastels/Kendrick-min.jpg", "name": "Kendrick"},
-        {"imgPath": "pastels/Barbie-min.jpg", "name": "Barbie"},
-        {"imgPath": "pastels/That which dont kill me-min.jpg", "name": "That which don't kill me"},
-        {"imgPath": "pastels/close to you-min.jpg", "name": "Close to you"},
-        {"imgPath": "pastels/money maker city breaker-min.jpg", "name": "Money maker, City breaker"}
+        {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose", "description": "There can only be one rose, 60 x 85cm soft pastel on paper", "gridCols": 2, "width": 520},
+        {"imgPath": "pastels/Heart's City-min.jpg", "name": "Heart's City", "description": "Heart's City, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/Haunted-min.jpg", "name": "Haunted", "description": "Haunted, 28 x 28cm soft pastel on paper"},
+        {"imgPath": "pastels/Return-min.jpg", "name": "Return", "description": "Return, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/villain-min.jpg", "name": "Villain", "description": "Villain, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/Kendrick-min.jpg", "name": "Kendrick", "description": "Kendrick, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/Barbie-min.jpg", "name": "Barbie", "description": "Barbie, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/That which dont kill me-min.jpg", "name": "That which don't kill me", "description": "That which don't kill me, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/close to you-min.jpg", "name": "Close to you", "description": "Close to you, 28 x 36cm soft pastel on paper"},
+        {"imgPath": "pastels/money maker city breaker-min.jpg", "name": "Money maker, City breaker", "description": "Money maker, City breaker, 28 x 36cm soft pastel on paper"}
     ],
     "portraits": [
         {"imgPath": "portraits/one portrait one story-min.jpg", "name": "one portrait, one story"},

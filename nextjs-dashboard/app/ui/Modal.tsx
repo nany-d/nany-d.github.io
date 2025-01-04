@@ -45,6 +45,7 @@ export default function Modal({ images }: ModalProps) {
                     <button onClick={() => onClose()} className="absolute top-0 right-0">&times;</button>
                     <button onClick={() => onChange(-1)}>&lt;</button>
                     <img src={imageName} /> 
+                    <div>{images[currentIndex].description}</div>
                     <button onClick={() => onChange(1)}>&gt;</button>
                 </div> 
                 : 

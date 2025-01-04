@@ -1,6 +1,7 @@
 export type galleryItem = {
     imgPath: string
     name: string | null
+    description: string | null
     // This can be a year range or a single year
     year: string | null
     // Links to a collection of art
