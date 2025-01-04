@@ -34,11 +34,15 @@ export default function Modal({ images }: ModalProps) {
         params.set("name", `images/${images[newIndex].imgPath.replace("-min", "")}`)
         replace(`${pathName}?${params.toString()}`)
     }
+    const onClose = () => {
+        replace(pathName)
+    }
     return (
         <>
             {
                 imageName ?
-                <div>
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <button onClick={() => onClose()} className="absolute top-0 right-0">&times;</button>
                     <button onClick={() => onChange(-1)}>&lt;</button>
                     <img src={imageName} /> 
                     <button onClick={() => onChange(1)}>&gt;</button>
