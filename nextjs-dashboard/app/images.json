@@ -187,7 +187,8 @@
         {"imgPath": "Alphabet/A-min.jpg", "name": "A"},
         {"imgPath": "Alphabet/B-min.jpg", "name": "B"},
         {"imgPath": "Alphabet/C-min.jpg", "name": "C"},
-        {"imgPath": "Alphabet/D-min.jpg", "name": "D"}
+        {"imgPath": "Alphabet/D-min.jpg", "name": "D"},
+        {"imgPath": "Alphabet/E-min.jpg", "name": "E"}
     ],
     "a4s": [
         {"imgPath": "A4s/Tower of Heaven-min.jpg", "name": "Tower of Heaven"},
