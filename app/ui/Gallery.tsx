@@ -18,7 +18,7 @@ export default function Gallery({ title, description, images }: galleryProps) {
             <div className="flex flex-col gap-5 mb-20">
                 <h1 className="flex flex-wrap justify-start mb-5 font-bold text-3xl">{title}</h1>
                 {description}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-1 justify-items-center" >
+                <div className="flex flex-wrap justify-center" >
                     {images.map((item, index) => (
                         <GalleryItem description={null} key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} collectionHref={item.collectionHref} gridCols={item.gridCols} width={item.width}/>
                     ))}

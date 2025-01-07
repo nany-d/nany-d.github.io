@@ -19,10 +19,10 @@ export default function GalleryItem({ imgPath, name, year, collectionHref, gridC
             {
                 collectionHref ? 
                 <Link href={collectionHref}>
-                    <img className={`w-full max-h-[322px] max-w-[${width ?? 250}px]`} src={imgPath} height="auto"/>
+                    <img className={`max-w-[${width ?? 250}px] max-h-[322px]`} src={imgPath} height="auto"/>
                 </Link> :    
                 <button onClick={onClick}>
-                    <img className={`w-full max-h-[322px] max-w-[${width ?? 250}px]`} src={imgPath} height="auto"/>
+                    <img className={`max-w-[${width ?? 250}px] max-h-[322px]`} src={imgPath} height="auto"/>
                 </button>
             }
             {name && <p>{name}</p>}
