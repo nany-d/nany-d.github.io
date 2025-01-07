@@ -133,4 +133,40 @@ const NAVBARITEMS: Array<NavbarItemProps> = [
 
 ### NextJS
 
+NextJS is a React framework that aims to speed up the development of React applications. It shifts the focus away from verbose, complicated tasks like routing and rendering, to simply building components.
+
+All of the UI pages and components are stored in the `app` folder, whilst public assets like images are stored in the `public` folder.
+
+NextJS can do lots of powerful stuff, most of these functionalities weren't needed for this site. More details can be found on the NextJS documentation.
+
 ### TailwindCSS
+
+TailwindCSS is a CSS framework that aims to reduce the need to create custom classes and ids in separate CSS files. Instead, it has pre-defined utility classes that make it easy to do common tasks. It is a very similar approach to using inline styles, except that the utility classes are easier to remember and combine. 
+
+For example, let's look at the TailwindCSS class for the NavbarItem component:
+
+```ts
+function NavbarItem({ href, pageName,}: NavbarItemProps) {
+    return (
+        <>
+            <div>
+                <Link href={href} className="px-3 py-2 hover:bg-white hover:text-black visited:text-white block float-right">
+                    {pageName}
+                </Link>
+            </div>
+        </>
+    )
+}
+```
+
+The NavbarItem is basically just a special `<a>` tag, and uses NextJS' `<Link>` component to optimize routing between other pages of the website. The styling for this link is set by the className. Notice how we directly specify horizontal padding of 3, vertical padding of 2.
+
+In addition, TailwindCSS has built in modifiers, to easily modify the behaviour based on certain states. `hover:` is used as a prefix when we want to style what happens on hover of this element. The same for `visited:`. 
+
+Many other modifiers exist, and a particularly useful one is changing style based on when screen sizes exceed certain dimensions. For example from the Gallery grid:
+
+```ts
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-1 justify-items-center" >
+```
+
+This snippet says that this div is a grid, and on the smallest device sizes (eg. mobile), it has 1 column. Once the width exceeds 640px, there are two columns. This process continues as the screen size gets larger. To see a full list of what each of the sizes mean, see the documentation [here](https://tailwindcss.com/docs/responsive-design).

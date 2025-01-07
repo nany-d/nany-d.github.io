@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 
-// TODO: Move to central config
 const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/contact", pageName: "Contact" },
     { href: "/about", pageName: "About" },
@@ -19,7 +18,7 @@ function NavbarItem({ href, pageName,}: NavbarItemProps) {
     return (
         <>
             <div>
-                <Link href={href} className={`px-3 py-2 hover:bg-white hover:text-black visited:text-white block float-right`}>
+                <Link href={href} className="px-3 py-2 hover:bg-white hover:text-black visited:text-white block float-right">
                     {pageName}
                 </Link>
             </div>
