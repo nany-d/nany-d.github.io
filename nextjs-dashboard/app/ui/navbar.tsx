@@ -1,5 +1,4 @@
 'use client'
-import clsx from 'clsx'
 import Link from "next/link"
 
 // TODO: Move to central config
