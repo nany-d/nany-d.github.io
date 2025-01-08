@@ -46,11 +46,9 @@ export default function Modal({ images }: ModalProps) {
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                     <button onClick={() => onClose()} className={`${COMMONSTYLES} absolute top-[10px] right-[20px]`}>&times;</button>
                     <button className={`${COMMONSTYLES} relative`} onClick={() => onChange(-1)}>&lt;</button>
-                    <div className="flex justify-center max-w-[600px] mx-2">
-                        <div className="flex flex-col items-center bg-black/80 ">
-                            <img src={imageName}/> 
-                            <div className="py-1 text-center">{images[currentIndex].description}</div>
-                        </div>
+                    <div className="flex flex-col justify-center items-center bg-black/80 max-w-[600px]">
+                        <img src={imageName}/> 
+                        <div className="py-1 text-center">{images[currentIndex].description}</div>
                     </div>
                     <button className={`${COMMONSTYLES} relative`} onClick={() => onChange(1)}>&gt;</button>
                 </div> 
