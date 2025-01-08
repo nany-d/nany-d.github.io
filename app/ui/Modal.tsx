@@ -49,7 +49,7 @@ export default function Modal({ images }: ModalProps) {
                         <button className={`${COMMONSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
                         <div className="flex flex-col items-center bg-black/80 ">
                             <img src={imageName}/> 
-                            <div className="py-1">{images[currentIndex].description}</div>
+                            <div className="py-1 text-center">{images[currentIndex].description}</div>
                         </div>
                         <button className={`${COMMONSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
                     </div>
