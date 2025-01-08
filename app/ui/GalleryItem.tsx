@@ -15,7 +15,7 @@ export default function GalleryItem({ imgPath, name, year, collectionHref, gridC
     }
     
     return (
-        <div className={`flex flex-col items-center text-white mx-2.5 mb-5 hover:border-[#777] hover:border col-span-1 sm:col-span-${gridCols}`}>
+        <div className={`flex flex-col items-center text-white mx-2.5 mb-5 border-black hover:border-[#777] border col-span-1 sm:col-span-${gridCols}`}>
             {
                 collectionHref ? 
                 <Link href={collectionHref}>
