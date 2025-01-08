@@ -8,6 +8,8 @@ type ModalProps = {
     images: Array<galleryItem>
 }
 
+const COMMONSTYLES = "text-4xl font-bold hover:text-[#999]"
+
 export default function Modal({ images }: ModalProps) {
     const searchParams = useSearchParams()
     const imageName = searchParams.get("name")
@@ -42,14 +44,14 @@ export default function Modal({ images }: ModalProps) {
             {
                 imageName ?
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                    <div className=" flex justify-center max-w-[600px]">
-                        <button onClick={() => onClose()} className="absolute top-0 right-0 text-4xl">&times;</button>
-                        <button className="text-4xl" onClick={() => onChange(-1)}>&lt;</button>
+                    <div className="flex justify-center max-w-[600px]">
+                        <button onClick={() => onClose()} className={`${COMMONSTYLES} absolute top-[10px] right-[20px]`}>&times;</button>
+                        <button className={`${COMMONSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
                         <div className="flex flex-col items-center bg-black/80 ">
                             <img src={imageName}/> 
                             <div className="py-1">{images[currentIndex].description}</div>
                         </div>
-                        <button className="text-4xl" onClick={() => onChange(1)}>&gt;</button>
+                        <button className={`${COMMONSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
                     </div>
                 </div> 
                 : 
