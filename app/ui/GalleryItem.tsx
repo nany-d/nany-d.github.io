@@ -11,7 +11,7 @@ export default function GalleryItem({ imgPath, name, year, collectionHref, gridC
     const onClick = () => {
         const params = new URLSearchParams
         params.set("name", fullImgPath)
-        replace(`${pathName}?${params.toString()}`)
+        replace(`${pathName}?${params.toString()}`, {scroll: false})
     }
     
     return (

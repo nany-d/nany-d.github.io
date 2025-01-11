@@ -34,10 +34,10 @@ export default function Modal({ images }: ModalProps) {
         }
         // Change URL params to the right one
         params.set("name", `images/${images[newIndex].imgPath.replace("-min", "")}`)
-        replace(`${pathName}?${params.toString()}`)
+        replace(`${pathName}?${params.toString()}`, { scroll: false})
     }
     const onClose = () => {
-        replace(pathName)
+        replace(pathName, { scroll: false})
     }
     return (
         <>
