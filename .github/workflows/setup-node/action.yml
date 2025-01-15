@@ -1,0 +1,32 @@
+# Taken from https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/
+# This is a composite action, which a set of steps which can run as a single one
+# This is different from a reusable workflow
+# See here https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action
+name: setup-node
+description: "Sets up Node.js, caches deps and installs them"
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node JS
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Install Pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
+    
+    - name: Cache deps
+      id: cache_dependencies
+      uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: node-modules-${{ hashFiles('pnpm-lock.yaml') }}
+    
+    - name: Install deps
+      shell: bash
+      if: steps.cache_dependencies.outputs.cache-hit != 'true'
+      # Clean install of dependencies
+      # Uses package-
+      run: pnpm install --frozen-lockfile
