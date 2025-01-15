@@ -2,7 +2,7 @@
 
 import type { galleryItem } from "../lib/galleryItem"
 import Link from "next/link"
-import { usePathname, useSearchParams, useRouter } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 
 export default function GalleryItem({ imgPath, name, year, collectionHref, gridCols, width }: galleryItem) {
     const pathName = usePathname()

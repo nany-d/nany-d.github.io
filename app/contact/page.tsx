@@ -1,11 +1,11 @@
 import images from "app/images.json"
 import Gallery from "@/app/ui/Gallery"
-import { JSX } from "react"
+import { ReactNode } from "react"
 import { galleryItem } from "@/app/lib/galleryItem"
 
 
 const imagesData: Array<galleryItem> = images.contact
-const description: JSX.Element = (
+const description: ReactNode = (
     <div>
         <p>
             Let me know your thoughts!

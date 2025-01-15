@@ -1,13 +1,13 @@
 export type galleryItem = {
     imgPath: string
-    name: string | null
-    description: string | null
+    name?: string
+    description?: string
     // This can be a year range or a single year
-    year: string | null
+    year?: string
     // Links to a collection of art
-    collectionHref: string | null
-    gridCols: number | null
-    width: number | null
+    collectionHref?: string
+    gridCols?: number
+    width?: number
 }
 
 export type revolvingGalleryItem = {

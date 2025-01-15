@@ -42,14 +42,14 @@ Pages containing images use the Gallery component, which given an array of image
 ```ts
 export type galleryItem = {
   imgPath: string
-  name: string | null
-  description: string | null
+  name?: string
+  description?: string
   // This can be a year range or a single year
-  year: string | null
+  year?: string
   // Links to a collection of art
-  collectionHref: string | null
-  gridCols: number | null
-  width: number | null
+  collectionHref?: string
+  gridCols?: number
+  width?: number
 }
 ```
 Note that the description is what is shown when the item is clicked on and viewed as a modal, whilst the name is what appears under the image when not in the modal. The collectionHref is used when clicking on a picture links to another page, instead of opening a modal with the full size image.

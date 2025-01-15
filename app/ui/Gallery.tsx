@@ -1,12 +1,12 @@
 import GalleryItem from "./GalleryItem"
 import Modal from "./Modal"
 import type { galleryItem } from "../lib/galleryItem"
-import { JSX } from "react"
+import { ReactNode, Suspense } from "react"
 // Gallery component to display a collection of pictures
 
 type galleryProps = {
     title: string
-    description: JSX.Element | null
+    description?: ReactNode
     images: Array<galleryItem>
 }
 
@@ -20,11 +20,15 @@ export default function Gallery({ title, description, images }: galleryProps) {
                 {description}
                 <div className="flex flex-wrap justify-center" >
                     {images.map((item, index) => (
-                        <GalleryItem description={null} key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} collectionHref={item.collectionHref} gridCols={item.gridCols} width={item.width}/>
+                        <GalleryItem key={index} imgPath={`${imageDir}/${item.imgPath}`} name={item.name} year={item.year} collectionHref={item.collectionHref} gridCols={item.gridCols} width={item.width}/>
                     ))}
                 </div>
             </div>
-        <Modal images={images} />
+            {/* Suspense uses a fallback until loaded */}
+            {/* Required when using searchParams */}
+            <Suspense>
+                <Modal images={images} />
+            </Suspense>
         </>
     )
 }

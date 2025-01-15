@@ -1,10 +1,10 @@
 import images from "app/images.json"
-import { JSX } from "react"
+import { ReactNode } from "react"
 import Gallery from "@/app/ui/Gallery";
 import { galleryItem } from "@/app/lib/galleryItem";
 
 const imageData: Array<galleryItem> = images.about
-const description: JSX.Element = (
+const description: ReactNode = (
     <div>
         <p>
             My name is Danny 'Haus' Martin
