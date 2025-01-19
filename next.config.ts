@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   // the default is to use Node
   output: "export",
   reactStrictMode: true,
-  basePath: "/ReactDannyWebsite"
+  basePath: "/nany-d.github.io"
 };
 
 export default nextConfig;
