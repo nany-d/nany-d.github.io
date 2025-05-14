@@ -26,7 +26,7 @@ jobs:
       
 
       - name: Set Prod Env
-        run: echo "NODE_ENV=true" >> $GITHUB_ENV
+        run: echo "NODE_ENV=production" >> $GITHUB_ENV
       
       - name: Check Env
         run: echo "$NODE_ENV"
