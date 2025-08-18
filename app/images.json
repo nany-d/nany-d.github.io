@@ -58,6 +58,12 @@
         }
     ],
     "art": [
+        { "imgPath": "art-pages/The erosion of intimacy - digital invasion.jpg", "name": "Oil Pastels", "year": "2024-2025", "collectionHref": "/oilpastels"},
+        { "imgPath": "art-pages/novi and hellen.jpg", "name": "Puppeteer Sketches", "year": "2023", "collectionHref": "/puppeteersketches"},
+        { "imgPath": "art-pages/hell angel.jpg", "name": "Kwinsty Collabs", "year": "2022-2025", "collectionHref": "/kwinstycollabs"},
+        { "imgPath": "art-pages/the rogueress.jpg", "name": "Further Sketches", "year": "2021-2022", "collectionHref": "/furthersketches"},
+        { "imgPath": "art-pages/blue narcissist.jpg", "name": "Blue Narcissist", "year": "2021", "collectionHref": "/bluenarcissist"},
+        { "imgPath": "art-pages/city of kings.jpg", "name": "City of Kings Mural", "year": "2017-2020", "collectionHref": "/cityofkings"},
         { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020", "collectionHref": "/pastels"},
         { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020", "collectionHref": "/portraits"},
         { "imgPath": "art-pages/phoenix.jpg", "name": "HellNine", "year": "2017-2020", "collectionHref": "/hellnine"},
