@@ -46,6 +46,17 @@
             ]
         }
     ],
+    "homePhone": [
+        {
+            "refreshInterval": 1000,
+            "images": [
+                "title-page/hell4-half.jpg",
+                "title-page/hell1-half.jpg",
+                "title-page/hell8-half.jpg",
+                "title-page/4-half.jpg"
+            ]
+        }
+    ],
     "art": [
         { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020", "collectionHref": "/pastels"},
         { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020", "collectionHref": "/portraits"},

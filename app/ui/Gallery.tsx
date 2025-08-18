@@ -1,8 +1,8 @@
+// Gallery component to display a collection of pictures
 import GalleryItem from "./GalleryItem"
 import Modal from "./Modal"
 import type { galleryItem } from "../lib/galleryItem"
 import { ReactNode, Suspense } from "react"
-// Gallery component to display a collection of pictures
 
 type galleryProps = {
     title: string
