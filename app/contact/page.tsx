@@ -10,9 +10,9 @@ const description: ReactNode = (
         <p>
             Let me know your thoughts!
             <br/>
-            Have you played The Puppeteer?  What did you think?
-            <br/>
             Are you interested in prints, commissions or want to know more about my art?
+            <br/>
+            Have you played The Puppeteer?  What did you think?
             <br/>
             Please do get in touch.
             <br/>

@@ -27,19 +27,17 @@ export default function Page() {
                 <br/>
                 October 2023: Released The Puppeteer on Steam
                 <br/>
-                October 2023: Delivered a talk at EGX entitled "The Puppeteer Demo and beginning my journey as a solo developer"
+                October 2023: Delivered a talk at EGX (Eurogamer Expo) entitled "The Puppeteer Demo and beginning my journey as a solo developer"
                 <br/>
                 July 2023: Showcased The Puppeteer at Medway Games Festival
                 <br/>
                 May 2023: Showcased The Puppeteer at Barclays Games Frenzy
                 <br/>
-                March 2023: Showcased The Puppeteer at the GDLX Expo in London
-                <br/>
-                March 2021: Began work on The Puppeteer
+                March 2023: Showcased The Puppeteer at GDLX (Game Dev London Expo)
                 <br/>
                 June 2020: Graduated from the University of Cambridge with a BA in Architecture
                 <br/>
-                March 2020: 1st place in Rylands Art Prize, hosted by King's College Cambridge
+                March 2020: 1st place in Rylands Art Prize, run by King's College Cambridge
                 <br/>
                 February 2020: 8th place in Manga Jiman Competition run by the Japanese Embassy.  Featured work: Balanced World
                 <br/>

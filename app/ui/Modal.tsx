@@ -53,7 +53,7 @@ export default function Modal({ images }: ModalProps) {
                         <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
                         <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
                     </div>
-                </div> 
+                </div>
                 : 
                 null
             }
