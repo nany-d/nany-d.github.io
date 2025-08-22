@@ -6,15 +6,15 @@ import { ReactNode } from "react"
 const imagesData: Array<galleryItem> = images.archive
 const description: ReactNode = (
     <p>
-        Art Instagram: <a className="underline" href="https://www.instagram.com/dannys_house_of_art/">dannys_house_of_art</a>
+        {/* Art Instagram: <a className="underline" href="https://www.instagram.com/dannys_house_of_art/">dannys_house_of_art</a> */}
     </p>
 )
 
 export default function Page() {
     return (
         <>
-            <Gallery images={imagesData} description={description} title="Archive" />
-            <p>
+            <Gallery images={imagesData} title="Archive" />
+            {/* <p>
                 Why I draw
                 <br/>
                 <br/>
@@ -51,7 +51,7 @@ export default function Page() {
                 Danny, 2020<br/>
             </p>
             <br/>
-            <br/>
+            <br/> */}
         </>
     )
 }

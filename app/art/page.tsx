@@ -6,14 +6,14 @@ import { ReactNode } from "react"
 const imagesData: Array<galleryItem> = images.art
 const description: ReactNode = (
     <p>
-        Art Instagram: <a className="underline" href="https://www.instagram.com/dannys_house_of_art/">dannys_house_of_art</a>
+        {/* Art Instagram: <a className="underline" href="https://www.instagram.com/dannys_house_of_art/">dannys_house_of_art</a> */}
     </p>
 )
 
 export default function Page() {
     return (
         <>
-        <Gallery images={imagesData} description={description} title="Art" />
+        <Gallery images={imagesData} title="Art" />
         </>
     )
 }

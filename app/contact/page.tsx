@@ -21,7 +21,7 @@ const description: ReactNode = (
         <p>
             Email: <a className="underline" href="mailto:mdanny@hotmail.co.uk">mdanny@hotmail.co.uk</a>
             <br/>
-            <br/>
+            {/* <br/>
             Twitter: <a className="underline" href="https://twitter.com/DannyHausMartin">https://twitter.com/DannyHausMartin</a>
             <br/>
             <br/>
@@ -32,7 +32,7 @@ const description: ReactNode = (
             <br/>
             <br/>
             The Puppeteer on Twitter: <a className="underline" href="https://twitter.com/the_puppet_eer">https://twitter.com/the_puppet_eer</a>
-            <br/>
+            <br/> */}
             <br/>
             The Puppeteer on Steam: <a className="underline" href="https://store.steampowered.com/app/2434000/The_Puppeteer/">https://steam.com/The_Puppeteer/</a>
             <br/>

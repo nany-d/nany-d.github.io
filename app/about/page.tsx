@@ -10,7 +10,7 @@ const description: ReactNode = (
             My name is Danny 'Haus' Martin
             <br/>
             <br/>
-            I'm a creative.
+            I'm a creative
             <br/>
         </p>
     </div>

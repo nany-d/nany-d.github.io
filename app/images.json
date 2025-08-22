@@ -60,24 +60,25 @@
     "art": [
         { "imgPath": "art-pages/The erosion of intimacy - digital invasion.jpg", "name": "Oil Pastels", "year": "2024-2025", "collectionHref": "/oilpastels"},
         { "imgPath": "art-pages/novi and hellen.jpg", "name": "Puppeteer Sketches", "year": "2023", "collectionHref": "/puppeteersketches"},
-        { "imgPath": "art-pages/hell angel.jpg", "name": "Kwinsty Collabs", "year": "2022-2025", "collectionHref": "/kwinstycollabs"},
-        { "imgPath": "art-pages/the rogueress.jpg", "name": "Further Sketches", "year": "2021-2022", "collectionHref": "/furthersketches"},
+        { "imgPath": "art-pages/hell angel.jpg", "name": "Kwinsty Collabs", "year": "2022", "collectionHref": "/kwinstycollabs"},
+        { "imgPath": "art-pages/the rogueress.jpg", "name": "Sketches", "year": "2021-2022", "collectionHref": "/furthersketches"},
         { "imgPath": "art-pages/blue narcissist.jpg", "name": "Blue Narcissist", "year": "2021", "collectionHref": "/bluenarcissist"},
         { "imgPath": "art-pages/city of kings.jpg", "name": "City of Kings Mural", "year": "2017-2020", "collectionHref": "/cityofkings"},
         { "imgPath": "art-pages/close to you.jpg", "name": "Pastels", "year": "2020", "collectionHref": "/pastels"},
         { "imgPath": "art-pages/kenny 2.jpg", "name": "One portrait, One story", "year": "2020", "collectionHref": "/portraits"},
         { "imgPath": "art-pages/phoenix.jpg", "name": "HellNine", "year": "2017-2020", "collectionHref": "/hellnine"},
+        { "imgPath": "art-pages/Balanced World.jpg", "name": "Balanced World", "year": "2019", "collectionHref": "/balancedworld"},
+        { "imgPath": "art-pages/D.jpg", "name": "The Alphabet Series", "year": "2019", "collectionHref": "/alphabet"},
+        { "imgPath": "art-pages/archive.jpg", "name": "ANCIENT VAULT", "year": "2016-2020", "collectionHref": "/archive"}
+    ],
+    "archive": [
         { "imgPath": "art-pages/fayte and tri stars.jpg", "name": "Vermillion", "year": "2020", "collectionHref": "/vermillion"},
         { "imgPath": "art-pages/phone 2.jpg", "name": "Miscellaneous", "year": "2020", "collectionHref": "/spares2020"},
         { "imgPath": "art-pages/Temple Arc.jpg", "name": "Subconscious City", "year": "2018-2020", "collectionHref": "/templearc"},
         { "imgPath": "art-pages/world on her head.jpg", "name": "The Rebalancing Act", "year": "2020", "collectionHref": "/therebalancingact"},
         { "imgPath": "art-pages/Full House.jpg", "name": "Full House Exhibition", "year": "2020", "collectionHref": "/fullhouse"},
-        { "imgPath": "art-pages/Balanced World.jpg", "name": "Balanced World", "year": "2019", "collectionHref": "/balancedworld"},
-        { "imgPath": "art-pages/D.jpg", "name": "The Alphabet Series", "year": "2019", "collectionHref": "/alphabet"},
-        { "imgPath": "art-pages/Tower of Heaven.jpg", "name": "The Chaos of Change", "year": "2017-2019", "collectionHref": "/chaosofchange"}
-    ],
-    "archive": [
-        {"imgPath": "art-pages/the daily routine.jpg", "name": "Old Sketches", "year": "2016-2019", "collectionHref": "/sketches"}
+        { "imgPath": "art-pages/Tower of Heaven.jpg", "name": "The Chaos of Change", "year": "2017-2019", "collectionHref": "/chaosofchange"},
+        {"imgPath": "art-pages/the daily routine.jpg", "name": "Sketches", "year": "2016-2019", "collectionHref": "/sketches"}
     ],
     "puppeteer": [
         {"imgPath": "puppeteer/p1.png", "description": "The Puppeteer, Puppetry"},
@@ -93,6 +94,80 @@
     ],
     "about": [
         {"imgPath": "about-image/danny2.jpg", "name": "Photograph", "description": "Photograph"}
+    ],
+    "oilpastels": [
+        {"imgPath": "pastels unleashed/The erosion of intimacy - digital invasion-min.jpg", "name": "e-Intimacy - physical meets digital", "description": "e-Intimacy - physical meets digital, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/The erosion of intimacy - text by text-min.jpg", "name": "e-Intimacy - face to face", "description": "e-Intimacy - face to face, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/The erosion of intimacy - scroll by scroll-min.jpg", "name": "e-Intimacy - side by side", "description": "e-Intimacy - side by side, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/self portrait-min.jpg", "name": "Self Portrait 2024", "description": "Self Portrait 2024, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/cyberpunk-min.jpg", "name": "Burden", "description": "Burden, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/tempest-min.jpg", "name": "Dreams at Sea", "description": "Dreams at Sea, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/tension-min.jpg", "name": "Tension", "description": "Tension, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/monk-min.jpg", "name": "The Monk", "description": "The Monk, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/abstract-min.jpg", "name": "Abstract", "description": "Abstract, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/autumn-min.jpg", "name": "An intersection of leaves", "description": "An intersection of leaves, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/remembrance-min.jpg", "name": "Remembrance", "description": "Remembrance, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/pyschadelic wizard-min.jpg", "name": "Trippy Wizard", "description": "Trippy Wizard, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/shimmer-min.jpg", "name": "Shimmer", "description": "Shimmer, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/starstruck salaryman-min.jpg", "name": "Starstruck Salaryman", "description": "Starstruck Salaryman, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/portrait-min.jpg", "name": "Portrait", "description": "Portrait, 28 x 36cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/self portrait 2-min.jpg", "name": "Self Portrait 2025", "description": "Self Portrait 2025, 28 x 36cm oil pastel on paper"}
+    ],
+    "puppeteersketches": [
+        {"imgPath": "puppeteer sketches/the puppeteer head-min.jpg", "name": "The Puppeteer", "description": "The Puppeteer, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/novi-min.jpg", "name": "Novi, the protagonist", "description": "Novi, the protagonist, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/hellen-min.jpg", "name": "Mavis, the sidekick", "description": "Mavis, the sidekick, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/puppteer-min.jpg", "name": "The Puppeteer, the villain", "description": "The Puppeteerm, the villain, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/novi and hellen-min.jpg", "name": "Novi and Mavis sketch", "description": "Novi and Mavis sketch, pencil on paper"},
+        {"imgPath": "puppeteer sketches/the puppeteer characters-min.jpg", "name": "The Puppeteer characters", "description": "The Puppeteer characters, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/puppeteer end-min.jpg", "name": "Puppeteer concerned sketch", "description": "Puppeteer concerned sketch, pen on paper"},
+        {"imgPath": "puppeteer sketches/altar-min.jpg", "name": "Altar", "description": "Altar, pen on paper"},
+        {"imgPath": "puppeteer sketches/finish temple-min.jpg", "name": "Finish temple", "description": "Finish temple, pen on paper"},
+        {"imgPath": "puppeteer sketches/novi sketch-min.jpg", "name": "Novi sketch", "description": "Novi sketch, pen on paper"},
+        {"imgPath": "puppeteer sketches/novi pixel art-min.jpg", "name": "Novi pixel art", "description": "Novi pixel art, digitally rendered using Aseprite"},
+        {"imgPath": "puppeteer sketches/level 1 sketch-min.jpg", "name": "Level 1 sketch", "description": "Level 1 sketch, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/level 2 sketch-min.jpg", "name": "Level 2 sketch", "description": "Level 2 sketch, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/level 3 sketch-min.jpg", "name": "Level 3 sketch", "description": "Level 3 sketch, pen and promarker on paper"},
+        {"imgPath": "puppeteer sketches/level 4 sketch-min.jpg", "name": "Level 4 sketch", "description": "Level 4 sketch, pen and promarker on paper"}
+    ],
+    "kwinstycollabs": [
+        {"imgPath": "omar collabs/flat share-min.jpg", "name": "Flat Share", "description": "Flat Share, 29 x 42cm pen and promarker on paper"},
+        {"imgPath": "omar collabs/hell angel-min.jpg", "name": "Hell Angel", "description": "Hell Angel, 29 x 42cm pen and promarker on paper"},
+        {"imgPath": "omar collabs/spirit gods-min.jpg", "name": "Spirit Gods", "description": "Spirit Gods, 29 x 42cm pen and promarker on paper"},
+        {"imgPath": "omar collabs/kwinstar-min.jpg", "name": "Ai Girl", "description": "Ai Girl, 29 x 42cm pen and promarker on paper"}
+    ],
+    "furthersketches": [
+        {"imgPath": "2021 to 2022 sketches/tv-min.jpg", "name": "tv", "description": "tv, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/faith-min.jpg", "name": "faith", "description": "faith, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/faith 2-min.jpg", "name": "faith 2", "description": "faith 2, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/blockers-min.jpg", "name": "blockers", "description": "blockers, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/kirche-min.jpg", "name": "kirche", "description": "kirche, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/the rogueress-min.jpg", "name": "the rogueress", "description": "the rogueress, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/the immortal-min.jpg", "name": "the immortal", "description": "the immortal, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/OverCoast Cover Art BW-min.jpg", "name": "OverCoast Cover Art BW", "description": "OverCoast Cover Art BW, hand-drawn components assembled digitally"},
+        {"imgPath": "2021 to 2022 sketches/OverCoast Cover Art Color-min.jpg", "name": "OverCoast Cover Art Color", "description": "OverCoast Cover Art Color, hand-drawn components assembled digitally"},
+        {"imgPath": "2021 to 2022 sketches/land-min.jpg", "name": "land", "description": "land, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/land 2-min.jpg", "name": "land 2", "description": "land 2, pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/musashi-min.jpg", "name": "musashi", "description": "musashi, calligraphy pen on paper"},
+        {"imgPath": "2021 to 2022 sketches/goldskullion-min.jpg", "name": "golden skull", "description": "golden skull, pen and promarker on paper"},
+        {"imgPath": "2021 to 2022 sketches/offcuts-min.jpg", "name": "offcuts", "description": "offcuts, all sorts"},
+        {"imgPath": "2021 to 2022 sketches/sketch 1-min.jpg", "name": "undulating sketch 1", "description": "undulating sketch 1, pen and promarker on paper"},
+        {"imgPath": "2021 to 2022 sketches/sketch 2-min.jpg", "name": "undulating sketch 2", "description": "undulating sketch 2, pen and promarker on paper"},
+        {"imgPath": "2021 to 2022 sketches/sternum vise-min.jpg", "name": "Sternum Vise", "description": "Sternum Vise, pen and promarker on paper"}
+    ],
+    "bluenarcissist": [
+        {"imgPath": "blue narcissist/red sunset lines-min.jpg", "name": "Red Sunset Lines", "description": "Red Sunset Lines, 15 x 21cm pen and ink on paper"},
+        {"imgPath": "blue narcissist/waves-min.jpg", "name": "Waves", "description": "Waves, 42 x 59cm pen and ink on paper"},
+        {"imgPath": "blue narcissist/windmills-min.jpg", "name": "Windmills", "description": "Windmills, 42 x 59cm pen and ink on paper"},
+        {"imgPath": "blue narcissist/blue narcissist-min.jpg", "name": "Blue Narcissist", "description": "Blue Narcissist, 15 x 21cm pen and promarker on paper"},
+        {"imgPath": "blue narcissist/samurai heart-min.jpg", "name": "Samurai Heart", "description": "Samurai Heart, 15 x 21cm pen and promarker on paper"},
+        {"imgPath": "blue narcissist/thorns f-min.jpg", "name": "Thorns F", "description": "Thorns F, 15 x 21cm pen and promarker on paper"},
+        {"imgPath": "blue narcissist/thorns m-min.jpg", "name": "Thorns M", "description": "Thorns M, 15 x 21cm pen and promarker on paper"},
+        {"imgPath": "blue narcissist/faded gods-min.jpg", "name": "Faded Gods", "description": "Faded Gods, 15 x 21cm biro on paper"},
+        {"imgPath": "blue narcissist/millionaires midnight moment-min.jpg", "name": "Millionaires Midnight Moment", "description": "Millionaires Midnight Moment, 15 x 21cm pen on paper"}
+    ],
+    "cityofkings": [
+        {"imgPath": "a0/city of kings-min.jpg", "name": "City of Kings Mural", "description": "City of Kings Mural, 84 x 119cm mixed media"}
     ],
     "pastels": [
         {"imgPath": "pastels/There can only be one rose-min.jpg", "name": "There can only be one rose", "description": "There can only be one rose, 60 x 85cm soft pastel on paper", "gridCols": 2, "width": 520},
@@ -205,7 +280,8 @@
         {"imgPath": "Alphabet/B-min.jpg", "name": "B", "description": "B, 15 x 21cm pen on smooth card"},
         {"imgPath": "Alphabet/C-min.jpg", "name": "C", "description": "C, 15 x 21cm pen on smooth card"},
         {"imgPath": "Alphabet/D-min.jpg", "name": "D", "description": "D, 15 x 21cm pen on smooth card"},
-        {"imgPath": "Alphabet/E-min.jpg", "name": "E", "description": "E, 15 x 21cm pen on smooth card"}
+        {"imgPath": "Alphabet/E-min.jpg", "name": "E", "description": "E, 15 x 21cm pen on smooth card"},
+        {"imgPath": "Alphabet/F-min.jpg", "name": "F", "description": "F, 15 x 21cm pen on smooth card"}
     ],
     "chaosofchange": [
         {"imgPath": "The Chaos of Change/Tower of Heaven-min.jpg", "name": "Tower of Heaven", "description": "Tower of Heaven, 21 x 30cm ink and pen on paper"},

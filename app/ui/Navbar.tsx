@@ -5,9 +5,8 @@ import Link from "next/link"
 const NAVBARITEMS: Array<NavbarItemProps> = [
     { href: "/contact", pageName: "Contact" },
     { href: "/about", pageName: "About" },
-    { href: "/archive", pageName: "Archive" },
+    { href: "/puppeteer", pageName: "Videogames" },
     { href: "/art", pageName: "Art" },
-    { href: "/puppeteer", pageName: "The Puppeteer" },
 ]
 
 interface NavbarItemProps {

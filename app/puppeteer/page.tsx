@@ -28,12 +28,12 @@ export default function Page() {
                 Join the Discord Server:
                     <a className="underline" href="https://discord.gg/uNjXEBHzKs">https://discord.gg/uNjXEBHzKs</a>
                     <br/>
-                <br/>
+                {/* <br/>
                 Twitter: <a className="underline" href="https://twitter.com/the_puppet_eer">https://twitter.com/the_puppet_eer</a>
                 <br/>
                 <br/>
                 Instagram: <a className="underline" href="https://www.instagram.com/the_puppeteer_game/">the_puppeteer_game</a>
-                <br/>
+                <br/> */}
             </p>
         </>
     )
