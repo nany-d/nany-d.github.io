@@ -1,4 +1,3 @@
-// Clock component that shows the time backwards
 'use client'
 
 import { useState, useEffect } from "react";
@@ -35,6 +34,6 @@ export default function Clock() {
         return () => clearInterval(timer)
     }, [])
     return (
-        <div>{currentTime.second}:{currentTime.minute}:{currentTime.hour}</div>
+        <div>{currentTime.hour}{currentTime.minute}{currentTime.second}</div>
     )
 }

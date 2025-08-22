@@ -2,6 +2,7 @@
 
 - [Danny Haus Martin Art Website](#danny-haus-martin-art-website)
   - [Setup](#setup)
+  - [Bugs](#bugs)
   - [Example Changes](#example-changes)
     - [Adding a New Image](#adding-a-new-image)
     - [Adding a New Page](#adding-a-new-page)
@@ -33,6 +34,12 @@ pnpm i
 pnpm dev
 ```
 5. Explore the website at port 3000 by navigating to `http://localhost:3000`
+
+## Bugs
+
+- When navigating between pages, the scroll maintains its position rather than resetting to the top of the page which is better UX.
+- Occasional hydration error when refreshing page caused by Date() function called server side being out of sync with the client UI.
+- Hydration error when homepage is rendered on phone screen size due to the initial called to window properties failing server side.
 
 ## Example Changes
 

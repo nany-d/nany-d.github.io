@@ -2,7 +2,6 @@
 
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { galleryItem } from "../lib/galleryItem";
-import path from "node:path/win32";
 
 type ModalProps = {
     images: Array<galleryItem>
@@ -46,13 +45,15 @@ export default function Modal({ images }: ModalProps) {
                 imageName ?
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                     <button onClick={() => onClose()} className={`${COMMONSTYLES} absolute top-[10px] right-[20px]`}>&times;</button>
-                    <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
                     <div className="flex flex-col justify-center items-center bg-black/80 max-w-[600px]">
                         <img src={imageName} className="max-h-[80vh]"/> 
                         <div className="py-1 text-center">{images[currentIndex].description}</div>
                     </div>
-                    <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
-                </div> 
+                    <div className="absolute bottom-[10px]">
+                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
+                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
+                    </div>
+                </div>
                 : 
                 null
             }

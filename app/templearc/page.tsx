@@ -7,7 +7,7 @@ const imagesData: Array<galleryItem> = images.templearc
 export default async function Page() {
     return (
         <>
-        <Gallery images={imagesData} title="Temple Arc" />
+        <Gallery images={imagesData} title="Subconscious City" />
         </>
     )
 }

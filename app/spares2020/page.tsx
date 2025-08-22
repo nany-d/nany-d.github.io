@@ -7,7 +7,7 @@ const imagesData: Array<galleryItem> = images.spares2020
 export default async function Page() {
     return (
         <>
-        <Gallery images={imagesData} title="2020 Spares" />
+        <Gallery images={imagesData} title="Miscellanous" />
         </>
     )
 }
