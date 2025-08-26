@@ -71,6 +71,10 @@
         { "imgPath": "art-pages/D.jpg", "name": "The Alphabet Series", "year": "2019", "collectionHref": "/alphabet"},
         { "imgPath": "art-pages/archive.jpg", "name": "ANCIENT VAULT", "year": "2016-2020", "collectionHref": "/archive"}
     ],
+    "videogames": [
+        { "imgPath": "art-pages/soul_sword.jpg", "name": "Soul Sword (In Development)", "year": "2025", "collectionHref": "/soulsword"},
+        { "imgPath": "art-pages/puppeteer.jpg", "name": "The Puppeteer (Released)", "year": "2023", "collectionHref": "/puppeteer"}
+    ],
     "archive": [
         { "imgPath": "art-pages/fayte and tri stars.jpg", "name": "Vermillion", "year": "2020", "collectionHref": "/vermillion"},
         { "imgPath": "art-pages/phone 2.jpg", "name": "Miscellaneous", "year": "2020", "collectionHref": "/spares2020"},
