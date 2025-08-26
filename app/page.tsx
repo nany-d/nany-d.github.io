@@ -24,7 +24,7 @@ export default function Page() {
     <>
       <RevolvingGallery title="WELCOME" revolvingImages={imageData} revolvingImagesForPhone={imageDataForPhone} phoneWidth={phoneWidth}/>
       <SectionLink href="/art" title="Art >" />
-      <SectionLink href="/puppeteer" title="Videogames >" />
+      <SectionLink href="/videogames" title="Videogames >" />
     </>
   );
 }
