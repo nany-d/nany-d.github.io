@@ -57,6 +57,11 @@
             ]
         }
     ],
+    "headlines": [
+        { "imgPath": "art-pages/The erosion of intimacy headline.jpg", "name": "RECENT OIL PASTELS", "year": "2024-2025", "collectionHref": "/oilpastels"},
+        { "imgPath": "art-pages/soul_sword headline.jpg", "name": "SOUL SWORD PROTOTYPE", "year": "2025", "collectionHref": "/soulsword"},
+        { "imgPath": "art-pages/waves headline.jpg", "name": "BLUE NARCISSIST", "year": "2021", "collectionHref": "/bluenarcissist"}
+    ],
     "art": [
         { "imgPath": "art-pages/The erosion of intimacy - digital invasion.jpg", "name": "Oil Pastels", "year": "2024-2025", "collectionHref": "/oilpastels"},
         { "imgPath": "art-pages/hell angel.jpg", "name": "Kwinsty Collabs", "year": "2022-2025", "collectionHref": "/kwinstycollabs"},
@@ -100,9 +105,9 @@
         {"imgPath": "about-image/danny2.jpg", "name": "Photograph", "description": "Photograph"}
     ],
     "oilpastels": [
-        {"imgPath": "pastels unleashed/The erosion of intimacy - digital invasion-min.jpg", "name": "e-Intimacy - physical meets digital", "description": "e-Intimacy - physical meets digital, 42 x 59cm oil pastel on paper"},
-        {"imgPath": "pastels unleashed/The erosion of intimacy - text by text-min.jpg", "name": "e-Intimacy - face to face", "description": "e-Intimacy - face to face, 42 x 59cm oil pastel on paper"},
-        {"imgPath": "pastels unleashed/The erosion of intimacy - scroll by scroll-min.jpg", "name": "e-Intimacy - side by side", "description": "e-Intimacy - side by side, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/The erosion of intimacy - digital invasion-min.jpg", "name": "e-Intimacy; physical meets digital", "description": "e-Intimacy; physical meets digital, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/The erosion of intimacy - text by text-min.jpg", "name": "e-Intimacy; face to face", "description": "e-Intimacy; face to face, 42 x 59cm oil pastel on paper"},
+        {"imgPath": "pastels unleashed/The erosion of intimacy - scroll by scroll-min.jpg", "name": "e-Intimacy; side by side", "description": "e-Intimacy; side by side, 42 x 59cm oil pastel on paper"},
         {"imgPath": "pastels unleashed/self portrait-min.jpg", "name": "Self Portrait 2024", "description": "Self Portrait 2024, 28 x 36cm oil pastel on paper"},
         {"imgPath": "pastels unleashed/cyberpunk-min.jpg", "name": "Burden", "description": "Burden, 28 x 36cm oil pastel on paper"},
         {"imgPath": "pastels unleashed/tempest-min.jpg", "name": "Dreams at Sea", "description": "Dreams at Sea, 28 x 36cm oil pastel on paper"},

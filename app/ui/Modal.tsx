@@ -50,8 +50,8 @@ export default function Modal({ images }: ModalProps) {
                         <div className="py-1 text-center">{images[currentIndex].description}</div>
                     </div>
                     <div className="absolute bottom-[10px]">
-                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(-1)}>&lt;</button>
-                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES}`} onClick={() => onChange(1)}>&gt;</button>
+                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES} pl-10 pr-10`} onClick={() => onChange(-1)}>&lt;</button>
+                        <button className={`${COMMONSTYLES} ${NEXTPREVSTYLES} pl-10 pr-10`} onClick={() => onChange(1)}>&gt;</button>
                     </div>
                 </div>
                 : 
