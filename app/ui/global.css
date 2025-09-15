@@ -27,3 +27,20 @@ body {
     @apply hover:text-linkColor;
   }
 }
+
+* {
+  cursor: none;
+}
+
+.sprite-container {
+  width: 64px; /* Width of a single frame */
+  height: 64px; /* Height of a single frame */
+  overflow: hidden;
+}
+
+.sprite-sheet {
+  width: 384px;
+  height: 64px;
+  background-image: url('/images/puppeteer/novi2.png');
+}
+

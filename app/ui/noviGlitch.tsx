@@ -5,20 +5,28 @@ import { useEffect } from "react"
 
 const CustomCursor = () => {
     useEffect(() => {
-        const cursorCustom = document.querySelector('.cursorCustom') as HTMLDivElement | null;
+        const spriteContainer = document.querySelector('.sprite-container') as HTMLDivElement | null;
+        // const sprite = document.querySelector('.sprite-sheet') as Element | null;
 
         const moveCursor = (e: MouseEvent): void => {
-            gsap.to(cursorCustom, {
+            gsap.to(spriteContainer, {
                 x: e.clientX,
                 y: e.clientY,
                 duration: 0.1
             });
         };
 
-        gsap.set(cursorCustom, {
+        gsap.set(spriteContainer, {
             xPercent: -50,
             yPercent: -50
         });
+
+        // gsap.to(sprite, {
+        //     backgroundPositionX: -384,
+        //     duration: 1, // The total duration of the animation in seconds
+        //     ease: `steps(${6})`,
+        //     repeat: -1 // Repeat indefinitely
+        // });
 
         window.addEventListener('mousemove', moveCursor);
 
@@ -28,34 +36,10 @@ const CustomCursor = () => {
     }, []);
 
     return (
-        <div className="max-sm:hidden z-10">
-            <div className="cursorCustom fixed z-50 mix-blend-difference pointer-events-none">
-                <img src="images/puppeteer/noviMouse.png"></img>
-            </div>
+        <div className="sprite-container max-sm:hidden fixed z-50 mix-blend-difference pointer-events-none">
+            <div className="sprite-sheet"></div>
         </div>
     );
 }
-
-// const CustomCursor = () => {
-//     useEffect(() => {
-//         const sprite = document.querySelector('.sprite-sheet') as Element | null;
-
-//         gsap.to(sprite, {
-//             backgroundPositionX: -2112,
-//             duration: 4, // The total duration of the animation in seconds
-//             ease: `steps(${40})`,
-//             repeat: -1 // Repeat indefinitely
-//         });
-
-//         return () => {
-//         };
-//     }, []);
-
-//     return (
-//         <div className="sprite-container">
-//             <div className="sprite-sheet"></div>
-//         </div>
-//     );
-// }
 
 export default CustomCursor;
