@@ -28,13 +28,13 @@ body {
   }
 }
 
-* {
+/* * {
   cursor: none;
 }
 
 .sprite-container {
-  width: 64px; /* Width of a single frame */
-  height: 64px; /* Height of a single frame */
+  width: 64px;
+  height: 64px;
   overflow: hidden;
 }
 
@@ -42,5 +42,4 @@ body {
   width: 384px;
   height: 64px;
   background-image: url('/images/puppeteer/novi2.png');
-}
-
+} */

@@ -1,4 +1,5 @@
 import images from "./images.json"
+import NoviButton from "./ui/noviButton";
 import Headline from "./ui/headline";
 import RevolvingGallery from "./ui/RevolvingGallery";
 import { galleryItem, revolvingGalleryItem } from "./lib/galleryItem";
@@ -35,6 +36,7 @@ export default function Page() {
       <br/>
       <SectionLink href="/art" title="Art >" />
       <SectionLink href="/videogames" title="Videogames >" />
+      {/* <NoviButton/> */}
     </>
   );
 }
