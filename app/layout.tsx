@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import CustomCursor from './ui/noviGlitch';
+import NoviMouse from './ui/noviMouse';
 import Header from './ui/header';
 import Footer from './ui/footer';
 
@@ -16,7 +16,7 @@ export default function RootLayout({
         <meta name="author" content="Danny Martin" />
       </head>
       <body>
-        <CustomCursor/>
+        {/* <NoviMouse/> */}
         <main className="flex min-h-screen flex-col bg-black sm:px-5">
           <Header />
           {children}
