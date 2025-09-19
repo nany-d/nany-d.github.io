@@ -22,7 +22,7 @@ export default async function Page() {
                 </p>
             </div>
             <div className="justify-items-center" >
-                <iframe id="" className={`border-black hover:border-[#777] border`} src="http://dannyhausmartin.com/soul_sword/index.html" name="" width="90%" height="540"></iframe>
+                <iframe id="" className={`border-black hover:border-[#777] border`} src="https://dannyhausmartin.com/soul_sword/index.html" name="" width="90%" height="540"></iframe>
             </div>
             <div>
                 <br/>
