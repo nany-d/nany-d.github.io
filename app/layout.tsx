@@ -1,5 +1,8 @@
+'use client'
+
 import '@/app/ui/global.css';
 import NoviMouse from './ui/noviMouse';
+import { useScrollToTop } from './ui/scrollToTop';
 import Header from './ui/header';
 import Footer from './ui/footer';
 
@@ -8,6 +11,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useScrollToTop();
+
   return (
     <html lang="en-UK">
       <head>

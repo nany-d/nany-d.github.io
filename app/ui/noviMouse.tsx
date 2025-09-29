@@ -3,6 +3,7 @@
 import gsap from "gsap"
 import { useEffect } from "react"
 
+// This component transforms the cursor into a miniature Novi
 export default function NoviMouse() {
     useEffect(() => {
         const spriteContainer = document.querySelector('.noviMouse') as HTMLDivElement | null;

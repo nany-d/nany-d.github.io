@@ -1,8 +1,7 @@
 'use client'
 
+ // One day this component may become an animation of Novi doing something interesting
 export default function NoviButton() {
-    // Make this image do something!
-
     return (
         <div>
             <br/>
