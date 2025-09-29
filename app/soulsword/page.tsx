@@ -14,15 +14,15 @@ export default async function Page() {
                 <br/>
                 <br/>
                     FEATURES: Procedurally generated dungeon maps, hidden lands within lands, MORE TBC
-                <br/>    
-                    NOTE: Only works on PC
+                <br/>
+                    NOTE: Use WASD to move. Movement only works on PC
                 <br/>
                 <br/>
                 <br/>
                 </p>
             </div>
             <div className="justify-items-center" >
-                <iframe id="" className={`border-black hover:border-[#777] border`} src="https://dannyhausmartin.com/soul_sword/index.html" name="" width="90%" height="540"></iframe>
+                <iframe id="" className={`border-black hover:border-[#777] border`} src="https://www.dannyhausmartin.com/soul_sword/index.html" name="" width="90%" height="540"></iframe>
             </div>
             <div>
                 <br/>

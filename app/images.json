@@ -58,7 +58,9 @@
         }
     ],
     "headlines": [
-        { "imgPath": "art-pages/The erosion of intimacy headline.jpg", "name": "OIL PASTELS", "year": "2024-2025", "collectionHref": "/oilpastels"}
+        { "imgPath": "art-pages/The erosion of intimacy headline.jpg", "name": "OIL PASTELS", "year": "2024-2025", "collectionHref": "/oilpastels"},
+        { "imgPath": "art-pages/soul_sword headline.jpg", "name": "SOUL SWORD", "year": "2024-Present", "collectionHref": "/soulsword"},
+        { "imgPath": "art-pages/waves headline.jpg", "name": "BLUE NARCISSIST", "year": "2021", "collectionHref": "/bluenarcissist"}
     ],
     "art": [
         { "imgPath": "art-pages/The erosion of intimacy - digital invasion.jpg", "name": "Oil Pastels", "year": "2024-2025", "collectionHref": "/oilpastels"},
@@ -75,7 +77,8 @@
         { "imgPath": "art-pages/archive.jpg", "name": "ANCIENT VAULT", "year": "2016-2020", "collectionHref": "/archive"}
     ],
     "videogames": [
-        { "imgPath": "art-pages/puppeteer.jpg", "name": "The Puppeteer", "year": "2023", "collectionHref": "/puppeteer"}
+        { "imgPath": "art-pages/soul_sword.jpg", "name": "Soul Sword", "year": "In Progress 2024-Present", "collectionHref": "/soulsword"},
+        { "imgPath": "art-pages/puppeteer.jpg", "name": "The Puppeteer", "year": "Released 2023", "collectionHref": "/puppeteer"}
     ],
     "archive": [
         { "imgPath": "art-pages/fayte and tri stars.jpg", "name": "Vermillion", "year": "2020", "collectionHref": "/vermillion"},
